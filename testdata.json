@@ -1,0 +1,10063 @@
+{
+  "raceInfo": {
+    "raceId": 0,
+    "myId": 0
+  },
+  "cars": [
+    {
+      "recItemList": null,
+      "receivePackDataList": null,
+      "sendPackDataList": null
+    },
+    {
+      "recItemList": [
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 23012
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 23032
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 23052
+        },
+        {
+          "recType": 0,
+          "value": 91,
+          "time": 23072
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 23192
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 23212
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 23232
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 23251
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 23271
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 23291
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 23311
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 23332
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 23352
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 23372
+        },
+        {
+          "recType": 0,
+          "value": 187,
+          "time": 23392
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 23412
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 23431
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 23451
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 23471
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 23672
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 23692
+        },
+        {
+          "recType": 0,
+          "value": 41,
+          "time": 23712
+        },
+        {
+          "recType": 0,
+          "value": 52,
+          "time": 23732
+        },
+        {
+          "recType": 0,
+          "value": 59,
+          "time": 23751
+        },
+        {
+          "recType": 0,
+          "value": 62,
+          "time": 23771
+        },
+        {
+          "recType": 0,
+          "value": 60,
+          "time": 23791
+        },
+        {
+          "recType": 0,
+          "value": 54,
+          "time": 23811
+        },
+        {
+          "recType": 0,
+          "value": 44,
+          "time": 23832
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 23852
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 23872
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 23892
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 23912
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 23931
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 23951
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 23971
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 23991
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 24012
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 24032
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 24052
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 24192
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 24212
+        },
+        {
+          "recType": 0,
+          "value": 34,
+          "time": 24232
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 24251
+        },
+        {
+          "recType": 0,
+          "value": 48,
+          "time": 24271
+        },
+        {
+          "recType": 0,
+          "value": 50,
+          "time": 24291
+        },
+        {
+          "recType": 0,
+          "value": 49,
+          "time": 24311
+        },
+        {
+          "recType": 0,
+          "value": 44,
+          "time": 24332
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 24352
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 24372
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 24392
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 24412
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 24431
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 24451
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 24471
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 24491
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 24512
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 24532
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 24552
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 24672
+        },
+        {
+          "recType": 0,
+          "value": 77,
+          "time": 24692
+        },
+        {
+          "recType": 0,
+          "value": 114,
+          "time": 24712
+        },
+        {
+          "recType": 0,
+          "value": 140,
+          "time": 24732
+        },
+        {
+          "recType": 0,
+          "value": 155,
+          "time": 24751
+        },
+        {
+          "recType": 0,
+          "value": 160,
+          "time": 24771
+        },
+        {
+          "recType": 0,
+          "value": 155,
+          "time": 24791
+        },
+        {
+          "recType": 0,
+          "value": 31,
+          "time": 24931
+        },
+        {
+          "recType": 0,
+          "value": 88,
+          "time": 24951
+        },
+        {
+          "recType": 0,
+          "value": 131,
+          "time": 24971
+        },
+        {
+          "recType": 0,
+          "value": 161,
+          "time": 24991
+        },
+        {
+          "recType": 0,
+          "value": 176,
+          "time": 25012
+        },
+        {
+          "recType": 0,
+          "value": 177,
+          "time": 25032
+        },
+        {
+          "recType": 0,
+          "value": 165,
+          "time": 25052
+        },
+        {
+          "recType": 0,
+          "value": 138,
+          "time": 25072
+        },
+        {
+          "recType": 0,
+          "value": 97,
+          "time": 25091
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 25111
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 25131
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 25151
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 25172
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 25192
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 25212
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 25232
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 25251
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 25271
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 25291
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 25311
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 25451
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 25471
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 25491
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 25512
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 25532
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 25552
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 25572
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 25591
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 25611
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 25631
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 25651
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 25672
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 25692
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 25712
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 25732
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 25751
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 25771
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 25791
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 25811
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 25832
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 25971
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 25991
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 26012
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 26032
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 26052
+        },
+        {
+          "recType": 0,
+          "value": 41,
+          "time": 26172
+        },
+        {
+          "recType": 0,
+          "value": 110,
+          "time": 26192
+        },
+        {
+          "recType": 0,
+          "value": 165,
+          "time": 26212
+        },
+        {
+          "recType": 0,
+          "value": 203,
+          "time": 26232
+        },
+        {
+          "recType": 0,
+          "value": 227,
+          "time": 26251
+        },
+        {
+          "recType": 0,
+          "value": 234,
+          "time": 26271
+        },
+        {
+          "recType": 0,
+          "value": 226,
+          "time": 26291
+        },
+        {
+          "recType": 0,
+          "value": 203,
+          "time": 26311
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 26552
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 26572
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 26591
+        },
+        {
+          "recType": 0,
+          "value": 55,
+          "time": 26611
+        },
+        {
+          "recType": 0,
+          "value": 63,
+          "time": 26631
+        },
+        {
+          "recType": 0,
+          "value": 66,
+          "time": 26651
+        },
+        {
+          "recType": 0,
+          "value": 65,
+          "time": 26672
+        },
+        {
+          "recType": 0,
+          "value": 60,
+          "time": 26692
+        },
+        {
+          "recType": 0,
+          "value": 50,
+          "time": 26712
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 26732
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 26751
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 26771
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 26791
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 26811
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 26832
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 26852
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 27052
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 27072
+        },
+        {
+          "recType": 0,
+          "value": 42,
+          "time": 27091
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 27212
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 27232
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 27251
+        },
+        {
+          "recType": 0,
+          "value": 40,
+          "time": 27271
+        },
+        {
+          "recType": 0,
+          "value": 49,
+          "time": 27291
+        },
+        {
+          "recType": 0,
+          "value": 54,
+          "time": 27311
+        },
+        {
+          "recType": 0,
+          "value": 59,
+          "time": 27332
+        },
+        {
+          "recType": 0,
+          "value": 61,
+          "time": 27352
+        },
+        {
+          "recType": 0,
+          "value": 62,
+          "time": 27372
+        },
+        {
+          "recType": 0,
+          "value": 61,
+          "time": 27392
+        },
+        {
+          "recType": 0,
+          "value": 59,
+          "time": 27411
+        },
+        {
+          "recType": 0,
+          "value": 58,
+          "time": 27432
+        },
+        {
+          "recType": 0,
+          "value": 57,
+          "time": 27451
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 27572
+        },
+        {
+          "recType": 0,
+          "value": 44,
+          "time": 27591
+        },
+        {
+          "recType": 0,
+          "value": 67,
+          "time": 27612
+        },
+        {
+          "recType": 0,
+          "value": 52,
+          "time": 27951
+        },
+        {
+          "recType": 0,
+          "value": 150,
+          "time": 27972
+        },
+        {
+          "recType": 0,
+          "value": 224,
+          "time": 27991
+        },
+        {
+          "recType": 0,
+          "value": 274,
+          "time": 28011
+        },
+        {
+          "recType": 0,
+          "value": 301,
+          "time": 28032
+        },
+        {
+          "recType": 0,
+          "value": 304,
+          "time": 28051
+        },
+        {
+          "recType": 0,
+          "value": 283,
+          "time": 28072
+        },
+        {
+          "recType": 0,
+          "value": 239,
+          "time": 28091
+        },
+        {
+          "recType": 0,
+          "value": 172,
+          "time": 28112
+        },
+        {
+          "recType": 0,
+          "value": 857,
+          "time": 28131
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 28392
+        },
+        {
+          "recType": 0,
+          "value": 53,
+          "time": 28411
+        },
+        {
+          "recType": 0,
+          "value": 80,
+          "time": 28432
+        },
+        {
+          "recType": 0,
+          "value": 98,
+          "time": 28451
+        },
+        {
+          "recType": 0,
+          "value": 109,
+          "time": 28472
+        },
+        {
+          "recType": 0,
+          "value": 111,
+          "time": 28491
+        },
+        {
+          "recType": 0,
+          "value": 104,
+          "time": 28511
+        },
+        {
+          "recType": 0,
+          "value": 90,
+          "time": 28532
+        },
+        {
+          "recType": 0,
+          "value": 66,
+          "time": 28551
+        },
+        {
+          "recType": 0,
+          "value": 998,
+          "time": 28572
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 28591
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 28612
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 28631
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 28652
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 28672
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 28691
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 28712
+        },
+        {
+          "recType": 0,
+          "value": 127,
+          "time": 28951
+        },
+        {
+          "recType": 0,
+          "value": 338,
+          "time": 28972
+        },
+        {
+          "recType": 0,
+          "value": 496,
+          "time": 28991
+        },
+        {
+          "recType": 0,
+          "value": 600,
+          "time": 29011
+        },
+        {
+          "recType": 0,
+          "value": 653,
+          "time": 29032
+        },
+        {
+          "recType": 0,
+          "value": 650,
+          "time": 29051
+        },
+        {
+          "recType": 0,
+          "value": 596,
+          "time": 29072
+        },
+        {
+          "recType": 0,
+          "value": 487,
+          "time": 29091
+        },
+        {
+          "recType": 0,
+          "value": 327,
+          "time": 29112
+        },
+        {
+          "recType": 0,
+          "value": 1308,
+          "time": 29131
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 29152
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 29172
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 29191
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 29212
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 29231
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 29252
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 29271
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 29292
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 29311
+        },
+        {
+          "recType": 0,
+          "value": 52,
+          "time": 29591
+        },
+        {
+          "recType": 0,
+          "value": 157,
+          "time": 29612
+        },
+        {
+          "recType": 0,
+          "value": 240,
+          "time": 29631
+        },
+        {
+          "recType": 0,
+          "value": 300,
+          "time": 29652
+        },
+        {
+          "recType": 0,
+          "value": 337,
+          "time": 29672
+        },
+        {
+          "recType": 0,
+          "value": 350,
+          "time": 29691
+        },
+        {
+          "recType": 0,
+          "value": 340,
+          "time": 29712
+        },
+        {
+          "recType": 0,
+          "value": 307,
+          "time": 29731
+        },
+        {
+          "recType": 0,
+          "value": 250,
+          "time": 29752
+        },
+        {
+          "recType": 0,
+          "value": 171,
+          "time": 29771
+        },
+        {
+          "recType": 0,
+          "value": 818,
+          "time": 29792
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 29811
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 29831
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 29852
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 29871
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 29892
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 29911
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 29932
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 29951
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 29972
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 29991
+        },
+        {
+          "recType": 0,
+          "value": 105,
+          "time": 32051
+        },
+        {
+          "recType": 0,
+          "value": 280,
+          "time": 32071
+        },
+        {
+          "recType": 0,
+          "value": 410,
+          "time": 32091
+        },
+        {
+          "recType": 0,
+          "value": 497,
+          "time": 32112
+        },
+        {
+          "recType": 0,
+          "value": 539,
+          "time": 32131
+        },
+        {
+          "recType": 0,
+          "value": 538,
+          "time": 32152
+        },
+        {
+          "recType": 0,
+          "value": 492,
+          "time": 32171
+        },
+        {
+          "recType": 0,
+          "value": 402,
+          "time": 32191
+        },
+        {
+          "recType": 0,
+          "value": 269,
+          "time": 32211
+        },
+        {
+          "recType": 0,
+          "value": 91,
+          "time": 32231
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 32252
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 32271
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 32292
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 32311
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 32331
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 32351
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 32371
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 32391
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 32411
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 32771
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 32792
+        },
+        {
+          "recType": 0,
+          "value": 33,
+          "time": 32811
+        },
+        {
+          "recType": 0,
+          "value": 42,
+          "time": 32831
+        },
+        {
+          "recType": 0,
+          "value": 46,
+          "time": 32851
+        },
+        {
+          "recType": 0,
+          "value": 47,
+          "time": 32871
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 32892
+        },
+        {
+          "recType": 0,
+          "value": 39,
+          "time": 32911
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 32932
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 32951
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 32972
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 32991
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 33011
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 33031
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 33051
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 33072
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 33091
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 33112
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 33131
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 33152
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 33491
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 33511
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 33531
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 33551
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 33572
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 33591
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 33612
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 33631
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 33652
+        },
+        {
+          "recType": 0,
+          "value": 1014,
+          "time": 33671
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 33691
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 33712
+        },
+        {
+          "recType": 0,
+          "value": 87,
+          "time": 34172
+        },
+        {
+          "recType": 0,
+          "value": 216,
+          "time": 34192
+        },
+        {
+          "recType": 0,
+          "value": 289,
+          "time": 34212
+        },
+        {
+          "recType": 0,
+          "value": 308,
+          "time": 34232
+        },
+        {
+          "recType": 0,
+          "value": 272,
+          "time": 34252
+        },
+        {
+          "recType": 0,
+          "value": 182,
+          "time": 34272
+        },
+        {
+          "recType": 0,
+          "value": 963,
+          "time": 34292
+        },
+        {
+          "recType": 0,
+          "value": 62,
+          "time": 34312
+        },
+        {
+          "recType": 0,
+          "value": 60,
+          "time": 34332
+        },
+        {
+          "recType": 0,
+          "value": 58,
+          "time": 34352
+        },
+        {
+          "recType": 0,
+          "value": 56,
+          "time": 34372
+        },
+        {
+          "recType": 0,
+          "value": 52,
+          "time": 34392
+        },
+        {
+          "recType": 0,
+          "value": 46,
+          "time": 34412
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 34432
+        },
+        {
+          "recType": 0,
+          "value": 41,
+          "time": 34452
+        },
+        {
+          "recType": 0,
+          "value": 38,
+          "time": 34472
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 34492
+        },
+        {
+          "recType": 0,
+          "value": 35,
+          "time": 34512
+        },
+        {
+          "recType": 0,
+          "value": 79,
+          "time": 67968
+        },
+        {
+          "recType": 0,
+          "value": 216,
+          "time": 67988
+        },
+        {
+          "recType": 0,
+          "value": 317,
+          "time": 68008
+        },
+        {
+          "recType": 0,
+          "value": 386,
+          "time": 68028
+        },
+        {
+          "recType": 0,
+          "value": 419,
+          "time": 68048
+        },
+        {
+          "recType": 0,
+          "value": 420,
+          "time": 68069
+        },
+        {
+          "recType": 0,
+          "value": 386,
+          "time": 68088
+        },
+        {
+          "recType": 0,
+          "value": 318,
+          "time": 68109
+        },
+        {
+          "recType": 0,
+          "value": 216,
+          "time": 68128
+        },
+        {
+          "recType": 0,
+          "value": 81,
+          "time": 68148
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 68168
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 68188
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 68208
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 68228
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 68249
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 68268
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 68288
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 68308
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 68328
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 68508
+        },
+        {
+          "recType": 0,
+          "value": 62,
+          "time": 68528
+        },
+        {
+          "recType": 0,
+          "value": 93,
+          "time": 68548
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 68688
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 68708
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 68728
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 68749
+        },
+        {
+          "recType": 0,
+          "value": 39,
+          "time": 68768
+        },
+        {
+          "recType": 0,
+          "value": 40,
+          "time": 68788
+        },
+        {
+          "recType": 0,
+          "value": 37,
+          "time": 68808
+        },
+        {
+          "recType": 0,
+          "value": 31,
+          "time": 68828
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 68848
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 68868
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 68889
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 68908
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 68929
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 69048
+        },
+        {
+          "recType": 0,
+          "value": 61,
+          "time": 69069
+        },
+        {
+          "recType": 0,
+          "value": 92,
+          "time": 69088
+        },
+        {
+          "recType": 0,
+          "value": 113,
+          "time": 69109
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 69249
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 69268
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 69288
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 69308
+        },
+        {
+          "recType": 0,
+          "value": 48,
+          "time": 69328
+        },
+        {
+          "recType": 0,
+          "value": 49,
+          "time": 69348
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 69368
+        },
+        {
+          "recType": 0,
+          "value": 38,
+          "time": 69389
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 69408
+        },
+        {
+          "recType": 0,
+          "value": 959,
+          "time": 69429
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 69448
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 69468
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 69488
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 69508
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 69528
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69548
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69569
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69588
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69609
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 69728
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 69749
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 69768
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 69788
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69808
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69828
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69848
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 69868
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 69889
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 69908
+        },
+        {
+          "recType": 0,
+          "value": 961,
+          "time": 69929
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 69948
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 69968
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 69988
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 70008
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 70028
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 70148
+        },
+        {
+          "recType": 0,
+          "value": 63,
+          "time": 70168
+        },
+        {
+          "recType": 0,
+          "value": 95,
+          "time": 70188
+        },
+        {
+          "recType": 0,
+          "value": 117,
+          "time": 70208
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 70328
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 70348
+        },
+        {
+          "recType": 0,
+          "value": 31,
+          "time": 70368
+        },
+        {
+          "recType": 0,
+          "value": 40,
+          "time": 70389
+        },
+        {
+          "recType": 0,
+          "value": 44,
+          "time": 70408
+        },
+        {
+          "recType": 0,
+          "value": 47,
+          "time": 70429
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 70448
+        },
+        {
+          "recType": 0,
+          "value": 41,
+          "time": 70468
+        },
+        {
+          "recType": 0,
+          "value": 34,
+          "time": 70488
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 70508
+        },
+        {
+          "recType": 0,
+          "value": 960,
+          "time": 70528
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 70548
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 70569
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 70588
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 70609
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 70628
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 70648
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 70668
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 70788
+        },
+        {
+          "recType": 0,
+          "value": 61,
+          "time": 70808
+        },
+        {
+          "recType": 0,
+          "value": 92,
+          "time": 70828
+        },
+        {
+          "recType": 0,
+          "value": 113,
+          "time": 70848
+        },
+        {
+          "recType": 0,
+          "value": 126,
+          "time": 70868
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 71008
+        },
+        {
+          "recType": 0,
+          "value": 34,
+          "time": 71028
+        },
+        {
+          "recType": 0,
+          "value": 50,
+          "time": 71048
+        },
+        {
+          "recType": 0,
+          "value": 62,
+          "time": 71069
+        },
+        {
+          "recType": 0,
+          "value": 67,
+          "time": 71088
+        },
+        {
+          "recType": 0,
+          "value": 67,
+          "time": 71109
+        },
+        {
+          "recType": 0,
+          "value": 62,
+          "time": 71128
+        },
+        {
+          "recType": 0,
+          "value": 52,
+          "time": 71148
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 71168
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 71188
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71208
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71228
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71249
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71268
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71288
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71308
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71328
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71348
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71368
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 71488
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 71609
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 71628
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 71768
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71788
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 71808
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 71828
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 71848
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 71868
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 71889
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 71908
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 71929
+        },
+        {
+          "recType": 0,
+          "value": 961,
+          "time": 71948
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 71968
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 72088
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 72109
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 72249
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 72268
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 72288
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 72308
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 72328
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 72348
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 72368
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 72389
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 72408
+        },
+        {
+          "recType": 0,
+          "value": 964,
+          "time": 72429
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72448
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72468
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72488
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72508
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72528
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72548
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72569
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 72588
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 72609
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 72728
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 72749
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 72768
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 73008
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 73028
+        },
+        {
+          "recType": 0,
+          "value": 35,
+          "time": 73048
+        },
+        {
+          "recType": 0,
+          "value": 44,
+          "time": 73069
+        },
+        {
+          "recType": 0,
+          "value": 49,
+          "time": 73088
+        },
+        {
+          "recType": 0,
+          "value": 50,
+          "time": 73109
+        },
+        {
+          "recType": 0,
+          "value": 49,
+          "time": 73128
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 73148
+        },
+        {
+          "recType": 0,
+          "value": 34,
+          "time": 73168
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 73188
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 73208
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 73228
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 73249
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 73268
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 73288
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 73308
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 73328
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 73348
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 73368
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 73588
+        },
+        {
+          "recType": 0,
+          "value": 64,
+          "time": 73609
+        },
+        {
+          "recType": 0,
+          "value": 95,
+          "time": 73628
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 73749
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 73768
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 73788
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 73808
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 73828
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 73848
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 73868
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 73889
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 73908
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 73929
+        },
+        {
+          "recType": 0,
+          "value": 844,
+          "time": 73948
+        },
+        {
+          "recType": 0,
+          "value": 28,
+          "time": 73968
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 73988
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 74008
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 74028
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 74148
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 74168
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 74488
+        },
+        {
+          "recType": 0,
+          "value": 58,
+          "time": 74508
+        },
+        {
+          "recType": 0,
+          "value": 99,
+          "time": 74528
+        },
+        {
+          "recType": 0,
+          "value": 130,
+          "time": 74548
+        },
+        {
+          "recType": 0,
+          "value": 148,
+          "time": 74569
+        },
+        {
+          "recType": 0,
+          "value": 155,
+          "time": 74588
+        },
+        {
+          "recType": 0,
+          "value": 149,
+          "time": 74609
+        },
+        {
+          "recType": 0,
+          "value": 132,
+          "time": 74628
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 74749
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 74768
+        },
+        {
+          "recType": 0,
+          "value": 71,
+          "time": 74788
+        },
+        {
+          "recType": 0,
+          "value": 93,
+          "time": 74808
+        },
+        {
+          "recType": 0,
+          "value": 31,
+          "time": 75069
+        },
+        {
+          "recType": 0,
+          "value": 97,
+          "time": 75088
+        },
+        {
+          "recType": 0,
+          "value": 147,
+          "time": 75109
+        },
+        {
+          "recType": 0,
+          "value": 181,
+          "time": 75128
+        },
+        {
+          "recType": 0,
+          "value": 199,
+          "time": 75148
+        },
+        {
+          "recType": 0,
+          "value": 203,
+          "time": 75168
+        },
+        {
+          "recType": 0,
+          "value": 190,
+          "time": 75188
+        },
+        {
+          "recType": 0,
+          "value": 162,
+          "time": 75208
+        },
+        {
+          "recType": 0,
+          "value": 119,
+          "time": 75228
+        },
+        {
+          "recType": 0,
+          "value": 808,
+          "time": 75249
+        },
+        {
+          "recType": 0,
+          "value": 40,
+          "time": 75268
+        },
+        {
+          "recType": 0,
+          "value": 39,
+          "time": 75288
+        },
+        {
+          "recType": 0,
+          "value": 38,
+          "time": 75308
+        },
+        {
+          "recType": 0,
+          "value": 38,
+          "time": 75328
+        },
+        {
+          "recType": 0,
+          "value": 37,
+          "time": 75348
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 75368
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 75389
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 75408
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 75429
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 75648
+        },
+        {
+          "recType": 0,
+          "value": 64,
+          "time": 75668
+        },
+        {
+          "recType": 0,
+          "value": 96,
+          "time": 75688
+        },
+        {
+          "recType": 0,
+          "value": 119,
+          "time": 75708
+        },
+        {
+          "recType": 0,
+          "value": 130,
+          "time": 75728
+        },
+        {
+          "recType": 0,
+          "value": 132,
+          "time": 75749
+        },
+        {
+          "recType": 0,
+          "value": 123,
+          "time": 75768
+        },
+        {
+          "recType": 0,
+          "value": 105,
+          "time": 75788
+        },
+        {
+          "recType": 0,
+          "value": 77,
+          "time": 75808
+        },
+        {
+          "recType": 0,
+          "value": 37,
+          "time": 75828
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 75848
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 75868
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 75889
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 75908
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 75929
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 75948
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 75968
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 75988
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 76008
+        },
+        {
+          "recType": 0,
+          "value": 140,
+          "time": 76288
+        },
+        {
+          "recType": 0,
+          "value": 375,
+          "time": 76308
+        },
+        {
+          "recType": 0,
+          "value": 550,
+          "time": 76328
+        },
+        {
+          "recType": 0,
+          "value": 667,
+          "time": 76348
+        },
+        {
+          "recType": 0,
+          "value": 724,
+          "time": 76368
+        },
+        {
+          "recType": 0,
+          "value": 723,
+          "time": 76389
+        },
+        {
+          "recType": 0,
+          "value": 662,
+          "time": 76408
+        },
+        {
+          "recType": 0,
+          "value": 543,
+          "time": 76429
+        },
+        {
+          "recType": 0,
+          "value": 364,
+          "time": 76448
+        },
+        {
+          "recType": 0,
+          "value": 127,
+          "time": 76468
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 76488
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 76508
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 76528
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 76648
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 76788
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 76808
+        },
+        {
+          "recType": 0,
+          "value": 48,
+          "time": 76828
+        },
+        {
+          "recType": 0,
+          "value": 63,
+          "time": 76848
+        },
+        {
+          "recType": 0,
+          "value": 73,
+          "time": 76868
+        },
+        {
+          "recType": 0,
+          "value": 78,
+          "time": 76889
+        },
+        {
+          "recType": 0,
+          "value": 79,
+          "time": 76908
+        },
+        {
+          "recType": 0,
+          "value": 74,
+          "time": 76929
+        },
+        {
+          "recType": 0,
+          "value": 64,
+          "time": 76948
+        },
+        {
+          "recType": 0,
+          "value": 49,
+          "time": 76968
+        },
+        {
+          "recType": 0,
+          "value": 874,
+          "time": 76988
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 77008
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 77028
+        },
+        {
+          "recType": 0,
+          "value": 28,
+          "time": 77048
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 77069
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 77088
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 77328
+        },
+        {
+          "recType": 0,
+          "value": 64,
+          "time": 77348
+        },
+        {
+          "recType": 0,
+          "value": 105,
+          "time": 77368
+        },
+        {
+          "recType": 0,
+          "value": 137,
+          "time": 77389
+        },
+        {
+          "recType": 0,
+          "value": 58,
+          "time": 78929
+        },
+        {
+          "recType": 0,
+          "value": 165,
+          "time": 78948
+        },
+        {
+          "recType": 0,
+          "value": 248,
+          "time": 78968
+        },
+        {
+          "recType": 0,
+          "value": 309,
+          "time": 78988
+        },
+        {
+          "recType": 0,
+          "value": 344,
+          "time": 79008
+        },
+        {
+          "recType": 0,
+          "value": 81,
+          "time": 79148
+        },
+        {
+          "recType": 0,
+          "value": 223,
+          "time": 79168
+        },
+        {
+          "recType": 0,
+          "value": 329,
+          "time": 79188
+        },
+        {
+          "recType": 0,
+          "value": 401,
+          "time": 79208
+        },
+        {
+          "recType": 0,
+          "value": 437,
+          "time": 79228
+        },
+        {
+          "recType": 0,
+          "value": 438,
+          "time": 79249
+        },
+        {
+          "recType": 0,
+          "value": 404,
+          "time": 79268
+        },
+        {
+          "recType": 0,
+          "value": 335,
+          "time": 79288
+        },
+        {
+          "recType": 0,
+          "value": 232,
+          "time": 79308
+        },
+        {
+          "recType": 0,
+          "value": 92,
+          "time": 79328
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 79348
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 79368
+        },
+        {
+          "recType": 0,
+          "value": 32,
+          "time": 79488
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 79628
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 79648
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 79668
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 79688
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 79708
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 79728
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 79749
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 79768
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 79788
+        },
+        {
+          "recType": 0,
+          "value": 1356,
+          "time": 79808
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 79828
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 79848
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 79868
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 79889
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 79908
+        },
+        {
+          "recType": 0,
+          "value": 33,
+          "time": 80228
+        },
+        {
+          "recType": 0,
+          "value": 35,
+          "time": 80368
+        },
+        {
+          "recType": 0,
+          "value": 114,
+          "time": 80389
+        },
+        {
+          "recType": 0,
+          "value": 177,
+          "time": 80408
+        },
+        {
+          "recType": 0,
+          "value": 222,
+          "time": 80429
+        },
+        {
+          "recType": 0,
+          "value": 252,
+          "time": 80448
+        },
+        {
+          "recType": 0,
+          "value": 264,
+          "time": 80468
+        },
+        {
+          "recType": 0,
+          "value": 259,
+          "time": 80488
+        },
+        {
+          "recType": 0,
+          "value": 236,
+          "time": 80508
+        },
+        {
+          "recType": 0,
+          "value": 195,
+          "time": 80528
+        },
+        {
+          "recType": 0,
+          "value": 108,
+          "time": 116768
+        },
+        {
+          "recType": 0,
+          "value": 57,
+          "time": 116889
+        },
+        {
+          "recType": 0,
+          "value": 160,
+          "time": 116908
+        },
+        {
+          "recType": 0,
+          "value": 103,
+          "time": 117049
+        },
+        {
+          "recType": 0,
+          "value": 281,
+          "time": 117068
+        },
+        {
+          "recType": 0,
+          "value": 416,
+          "time": 117088
+        },
+        {
+          "recType": 0,
+          "value": 506,
+          "time": 117109
+        },
+        {
+          "recType": 0,
+          "value": 550,
+          "time": 117128
+        },
+        {
+          "recType": 0,
+          "value": 552,
+          "time": 117148
+        },
+        {
+          "recType": 0,
+          "value": 508,
+          "time": 117168
+        },
+        {
+          "recType": 0,
+          "value": 420,
+          "time": 117189
+        },
+        {
+          "recType": 0,
+          "value": 286,
+          "time": 117208
+        },
+        {
+          "recType": 0,
+          "value": 1452,
+          "time": 117228
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 117249
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 117268
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 117288
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 117308
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 117329
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 117348
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 117368
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 117389
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 117408
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 117428
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 117568
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 117588
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 117609
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 117628
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 117648
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 117668
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 117689
+        },
+        {
+          "recType": 0,
+          "value": 32,
+          "time": 117808
+        },
+        {
+          "recType": 0,
+          "value": 86,
+          "time": 117829
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 117969
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 117988
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 118008
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 118028
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 118049
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 118068
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 118088
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 118109
+        },
+        {
+          "recType": 0,
+          "value": 31,
+          "time": 118228
+        },
+        {
+          "recType": 0,
+          "value": 86,
+          "time": 118249
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 118368
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 118389
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 118408
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 118428
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 118448
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 118469
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 118488
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 118508
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 118528
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 118549
+        },
+        {
+          "recType": 0,
+          "value": 1358,
+          "time": 118568
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 118588
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 118609
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 118628
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 118648
+        },
+        {
+          "recType": 0,
+          "value": 28,
+          "time": 118668
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 118788
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 118808
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 118829
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 118848
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 118868
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 118889
+        },
+        {
+          "recType": 0,
+          "value": 28,
+          "time": 118908
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 118928
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 118948
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 118969
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 118988
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 119008
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 119028
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 119049
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 119068
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 119088
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 119109
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 119128
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 119148
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 119168
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 119189
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 119208
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 119348
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 119368
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 119389
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 119408
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 119428
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 119448
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 119469
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 119488
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 119508
+        },
+        {
+          "recType": 0,
+          "value": 1117,
+          "time": 119528
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 119648
+        },
+        {
+          "recType": 0,
+          "value": 77,
+          "time": 119668
+        },
+        {
+          "recType": 0,
+          "value": 116,
+          "time": 119689
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 119829
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 119848
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 119868
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 120109
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 120128
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 120148
+        },
+        {
+          "recType": 0,
+          "value": 56,
+          "time": 120168
+        },
+        {
+          "recType": 0,
+          "value": 62,
+          "time": 120189
+        },
+        {
+          "recType": 0,
+          "value": 63,
+          "time": 120208
+        },
+        {
+          "recType": 0,
+          "value": 60,
+          "time": 120228
+        },
+        {
+          "recType": 0,
+          "value": 51,
+          "time": 120249
+        },
+        {
+          "recType": 0,
+          "value": 37,
+          "time": 120268
+        },
+        {
+          "recType": 0,
+          "value": 1010,
+          "time": 120288
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 120308
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 120329
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 120348
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 120368
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 120389
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 120408
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 120428
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 120448
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 120469
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 120488
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 120628
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 120648
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 120668
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 120788
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 120908
+        },
+        {
+          "recType": 0,
+          "value": 60,
+          "time": 120928
+        },
+        {
+          "recType": 0,
+          "value": 94,
+          "time": 120948
+        },
+        {
+          "recType": 0,
+          "value": 121,
+          "time": 120969
+        },
+        {
+          "recType": 0,
+          "value": 143,
+          "time": 120988
+        },
+        {
+          "recType": 0,
+          "value": 156,
+          "time": 121008
+        },
+        {
+          "recType": 0,
+          "value": 157,
+          "time": 121028
+        },
+        {
+          "recType": 0,
+          "value": 150,
+          "time": 121049
+        },
+        {
+          "recType": 0,
+          "value": 137,
+          "time": 121068
+        },
+        {
+          "recType": 0,
+          "value": 116,
+          "time": 121088
+        },
+        {
+          "recType": 0,
+          "value": 787,
+          "time": 121109
+        },
+        {
+          "recType": 0,
+          "value": 84,
+          "time": 121128
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 121249
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 121528
+        },
+        {
+          "recType": 0,
+          "value": 65,
+          "time": 121549
+        },
+        {
+          "recType": 0,
+          "value": 98,
+          "time": 121568
+        },
+        {
+          "recType": 0,
+          "value": 123,
+          "time": 121588
+        },
+        {
+          "recType": 0,
+          "value": 139,
+          "time": 121609
+        },
+        {
+          "recType": 0,
+          "value": 146,
+          "time": 121628
+        },
+        {
+          "recType": 0,
+          "value": 145,
+          "time": 121648
+        },
+        {
+          "recType": 0,
+          "value": 135,
+          "time": 121668
+        },
+        {
+          "recType": 0,
+          "value": 116,
+          "time": 121689
+        },
+        {
+          "recType": 0,
+          "value": 91,
+          "time": 121708
+        },
+        {
+          "recType": 0,
+          "value": 654,
+          "time": 121728
+        },
+        {
+          "recType": 0,
+          "value": 61,
+          "time": 121749
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 121868
+        },
+        {
+          "recType": 0,
+          "value": 44,
+          "time": 121889
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 122128
+        },
+        {
+          "recType": 0,
+          "value": 79,
+          "time": 122148
+        },
+        {
+          "recType": 0,
+          "value": 121,
+          "time": 122168
+        },
+        {
+          "recType": 0,
+          "value": 153,
+          "time": 122189
+        },
+        {
+          "recType": 0,
+          "value": 173,
+          "time": 122208
+        },
+        {
+          "recType": 0,
+          "value": 183,
+          "time": 122228
+        },
+        {
+          "recType": 0,
+          "value": 20,
+          "time": 122368
+        },
+        {
+          "recType": 0,
+          "value": 66,
+          "time": 122389
+        },
+        {
+          "recType": 0,
+          "value": 99,
+          "time": 122408
+        },
+        {
+          "recType": 0,
+          "value": 123,
+          "time": 122428
+        },
+        {
+          "recType": 0,
+          "value": 135,
+          "time": 122448
+        },
+        {
+          "recType": 0,
+          "value": 136,
+          "time": 122469
+        },
+        {
+          "recType": 0,
+          "value": 126,
+          "time": 122488
+        },
+        {
+          "recType": 0,
+          "value": 106,
+          "time": 122508
+        },
+        {
+          "recType": 0,
+          "value": 74,
+          "time": 122528
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 122668
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 122808
+        },
+        {
+          "recType": 0,
+          "value": 60,
+          "time": 122829
+        },
+        {
+          "recType": 0,
+          "value": 90,
+          "time": 122848
+        },
+        {
+          "recType": 0,
+          "value": 112,
+          "time": 122868
+        },
+        {
+          "recType": 0,
+          "value": 124,
+          "time": 122889
+        },
+        {
+          "recType": 0,
+          "value": 126,
+          "time": 122908
+        },
+        {
+          "recType": 0,
+          "value": 120,
+          "time": 122928
+        },
+        {
+          "recType": 0,
+          "value": 103,
+          "time": 122948
+        },
+        {
+          "recType": 0,
+          "value": 77,
+          "time": 122969
+        },
+        {
+          "recType": 0,
+          "value": 42,
+          "time": 122988
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 123008
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 123028
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 123049
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 123068
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 123088
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 123109
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 123128
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 123148
+        },
+        {
+          "recType": 0,
+          "value": 92,
+          "time": 123268
+        },
+        {
+          "recType": 0,
+          "value": 246,
+          "time": 123288
+        },
+        {
+          "recType": 0,
+          "value": 365,
+          "time": 123308
+        },
+        {
+          "recType": 0,
+          "value": 120,
+          "time": 123448
+        },
+        {
+          "recType": 0,
+          "value": 322,
+          "time": 123469
+        },
+        {
+          "recType": 0,
+          "value": 470,
+          "time": 123488
+        },
+        {
+          "recType": 0,
+          "value": 571,
+          "time": 123508
+        },
+        {
+          "recType": 0,
+          "value": 620,
+          "time": 123528
+        },
+        {
+          "recType": 0,
+          "value": 619,
+          "time": 123549
+        },
+        {
+          "recType": 0,
+          "value": 566,
+          "time": 123568
+        },
+        {
+          "recType": 0,
+          "value": 465,
+          "time": 123588
+        },
+        {
+          "recType": 0,
+          "value": 312,
+          "time": 123609
+        },
+        {
+          "recType": 0,
+          "value": 108,
+          "time": 123628
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 123648
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 123668
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 123969
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 123988
+        },
+        {
+          "recType": 0,
+          "value": 34,
+          "time": 124008
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 124028
+        },
+        {
+          "recType": 0,
+          "value": 31,
+          "time": 124168
+        },
+        {
+          "recType": 0,
+          "value": 97,
+          "time": 124189
+        },
+        {
+          "recType": 0,
+          "value": 150,
+          "time": 124208
+        },
+        {
+          "recType": 0,
+          "value": 188,
+          "time": 124228
+        },
+        {
+          "recType": 0,
+          "value": 212,
+          "time": 124249
+        },
+        {
+          "recType": 0,
+          "value": 222,
+          "time": 124268
+        },
+        {
+          "recType": 0,
+          "value": 217,
+          "time": 124288
+        },
+        {
+          "recType": 0,
+          "value": 197,
+          "time": 124308
+        },
+        {
+          "recType": 0,
+          "value": 163,
+          "time": 124329
+        },
+        {
+          "recType": 0,
+          "value": 115,
+          "time": 124348
+        },
+        {
+          "recType": 0,
+          "value": 820,
+          "time": 124368
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 124389
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 124668
+        },
+        {
+          "recType": 0,
+          "value": 74,
+          "time": 124689
+        },
+        {
+          "recType": 0,
+          "value": 115,
+          "time": 124708
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 124829
+        },
+        {
+          "recType": 0,
+          "value": 78,
+          "time": 124848
+        },
+        {
+          "recType": 0,
+          "value": 120,
+          "time": 124868
+        },
+        {
+          "recType": 0,
+          "value": 151,
+          "time": 124889
+        },
+        {
+          "recType": 0,
+          "value": 171,
+          "time": 124908
+        },
+        {
+          "recType": 0,
+          "value": 181,
+          "time": 124928
+        },
+        {
+          "recType": 0,
+          "value": 181,
+          "time": 124948
+        },
+        {
+          "recType": 0,
+          "value": 170,
+          "time": 124969
+        },
+        {
+          "recType": 0,
+          "value": 149,
+          "time": 124988
+        },
+        {
+          "recType": 0,
+          "value": 38,
+          "time": 125829
+        },
+        {
+          "recType": 0,
+          "value": 107,
+          "time": 125848
+        },
+        {
+          "recType": 0,
+          "value": 37,
+          "time": 125969
+        },
+        {
+          "recType": 0,
+          "value": 108,
+          "time": 125988
+        },
+        {
+          "recType": 0,
+          "value": 165,
+          "time": 126008
+        },
+        {
+          "recType": 0,
+          "value": 206,
+          "time": 126028
+        },
+        {
+          "recType": 0,
+          "value": 230,
+          "time": 126049
+        },
+        {
+          "recType": 0,
+          "value": 239,
+          "time": 126068
+        },
+        {
+          "recType": 0,
+          "value": 233,
+          "time": 126088
+        },
+        {
+          "recType": 0,
+          "value": 211,
+          "time": 126109
+        },
+        {
+          "recType": 0,
+          "value": 172,
+          "time": 126128
+        },
+        {
+          "recType": 0,
+          "value": 119,
+          "time": 126148
+        },
+        {
+          "recType": 0,
+          "value": 998,
+          "time": 126168
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 126288
+        },
+        {
+          "recType": 0,
+          "value": 76,
+          "time": 126308
+        },
+        {
+          "recType": 0,
+          "value": 113,
+          "time": 126329
+        },
+        {
+          "recType": 0,
+          "value": 137,
+          "time": 126348
+        },
+        {
+          "recType": 0,
+          "value": 151,
+          "time": 126368
+        },
+        {
+          "recType": 0,
+          "value": 69,
+          "time": 126549
+        },
+        {
+          "recType": 0,
+          "value": 182,
+          "time": 126568
+        },
+        {
+          "recType": 0,
+          "value": 270,
+          "time": 126588
+        },
+        {
+          "recType": 0,
+          "value": 332,
+          "time": 126609
+        },
+        {
+          "recType": 0,
+          "value": 368,
+          "time": 126628
+        },
+        {
+          "recType": 0,
+          "value": 381,
+          "time": 126648
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 126768
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 126788
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 126808
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 126948
+        },
+        {
+          "recType": 0,
+          "value": 79,
+          "time": 126969
+        },
+        {
+          "recType": 0,
+          "value": 114,
+          "time": 126988
+        },
+        {
+          "recType": 0,
+          "value": 138,
+          "time": 127008
+        },
+        {
+          "recType": 0,
+          "value": 150,
+          "time": 127028
+        },
+        {
+          "recType": 0,
+          "value": 149,
+          "time": 127049
+        },
+        {
+          "recType": 0,
+          "value": 135,
+          "time": 127068
+        },
+        {
+          "recType": 0,
+          "value": 111,
+          "time": 127088
+        },
+        {
+          "recType": 0,
+          "value": 73,
+          "time": 127109
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 127128
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 127148
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 127268
+        },
+        {
+          "recType": 0,
+          "value": 74,
+          "time": 127288
+        },
+        {
+          "recType": 0,
+          "value": 112,
+          "time": 127308
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 127448
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 127469
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 127488
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 127508
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 127528
+        },
+        {
+          "recType": 0,
+          "value": 27,
+          "time": 127549
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 127568
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 127588
+        },
+        {
+          "recType": 0,
+          "value": 15,
+          "time": 127609
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 127628
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 127648
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 127668
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 127689
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 127708
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 127728
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 127749
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 127768
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 127788
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 127808
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 127829
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 127969
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 127988
+        },
+        {
+          "recType": 0,
+          "value": 48,
+          "time": 128109
+        },
+        {
+          "recType": 0,
+          "value": 47,
+          "time": 128348
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 128488
+        },
+        {
+          "recType": 0,
+          "value": 134,
+          "time": 128508
+        },
+        {
+          "recType": 0,
+          "value": 204,
+          "time": 128528
+        },
+        {
+          "recType": 0,
+          "value": 255,
+          "time": 128549
+        },
+        {
+          "recType": 0,
+          "value": 286,
+          "time": 128568
+        },
+        {
+          "recType": 0,
+          "value": 297,
+          "time": 128588
+        },
+        {
+          "recType": 0,
+          "value": 288,
+          "time": 128609
+        },
+        {
+          "recType": 0,
+          "value": 260,
+          "time": 128628
+        },
+        {
+          "recType": 0,
+          "value": 212,
+          "time": 128648
+        },
+        {
+          "recType": 0,
+          "value": 143,
+          "time": 128668
+        },
+        {
+          "recType": 0,
+          "value": 763,
+          "time": 128689
+        },
+        {
+          "recType": 0,
+          "value": 42,
+          "time": 166468
+        },
+        {
+          "recType": 0,
+          "value": 115,
+          "time": 166488
+        },
+        {
+          "recType": 0,
+          "value": 173,
+          "time": 166508
+        },
+        {
+          "recType": 0,
+          "value": 214,
+          "time": 166528
+        },
+        {
+          "recType": 0,
+          "value": 238,
+          "time": 166548
+        },
+        {
+          "recType": 0,
+          "value": 247,
+          "time": 166568
+        },
+        {
+          "recType": 0,
+          "value": 239,
+          "time": 166588
+        },
+        {
+          "recType": 0,
+          "value": 215,
+          "time": 166608
+        },
+        {
+          "recType": 0,
+          "value": 173,
+          "time": 166628
+        },
+        {
+          "recType": 0,
+          "value": 117,
+          "time": 166648
+        },
+        {
+          "recType": 0,
+          "value": 951,
+          "time": 166668
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 166688
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 166708
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 166728
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 166748
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 166768
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 166788
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 166808
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 166828
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 166848
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 166868
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 166888
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 167028
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 167148
+        },
+        {
+          "recType": 0,
+          "value": 117,
+          "time": 167168
+        },
+        {
+          "recType": 0,
+          "value": 175,
+          "time": 167188
+        },
+        {
+          "recType": 0,
+          "value": 217,
+          "time": 167208
+        },
+        {
+          "recType": 0,
+          "value": 241,
+          "time": 167228
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 167348
+        },
+        {
+          "recType": 0,
+          "value": 53,
+          "time": 167368
+        },
+        {
+          "recType": 0,
+          "value": 79,
+          "time": 167388
+        },
+        {
+          "recType": 0,
+          "value": 97,
+          "time": 167408
+        },
+        {
+          "recType": 0,
+          "value": 109,
+          "time": 167428
+        },
+        {
+          "recType": 0,
+          "value": 113,
+          "time": 167448
+        },
+        {
+          "recType": 0,
+          "value": 109,
+          "time": 167468
+        },
+        {
+          "recType": 0,
+          "value": 97,
+          "time": 167488
+        },
+        {
+          "recType": 0,
+          "value": 80,
+          "time": 167508
+        },
+        {
+          "recType": 0,
+          "value": 54,
+          "time": 167528
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 167548
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 167568
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 167588
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 167608
+        },
+        {
+          "recType": 0,
+          "value": 9,
+          "time": 167628
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 167648
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 167668
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 167688
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 167708
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 167728
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 167748
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 167868
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 167888
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 167908
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 167928
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 167948
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 167968
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 167988
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 168008
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 168028
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 168048
+        },
+        {
+          "recType": 0,
+          "value": 945,
+          "time": 168068
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168088
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168108
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168128
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168148
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168168
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168188
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168208
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168228
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168248
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168268
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168288
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 168428
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168448
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 168468
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 168488
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 168508
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 168528
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 168548
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 168568
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 168588
+        },
+        {
+          "recType": 0,
+          "value": 963,
+          "time": 168608
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 168628
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168648
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168668
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168688
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168708
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168728
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168748
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168768
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168788
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 168908
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 168928
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168948
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168968
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 168988
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 169008
+        },
+        {
+          "recType": 0,
+          "value": 3,
+          "time": 169028
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 169048
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 169068
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 169088
+        },
+        {
+          "recType": 0,
+          "value": 978,
+          "time": 169108
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169128
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169148
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169168
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169188
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169208
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169228
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169248
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169268
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169288
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169308
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 169428
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169448
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169468
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169488
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169508
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169528
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169548
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169568
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169588
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169608
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 169628
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169648
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169668
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169688
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169708
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 169728
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 169748
+        },
+        {
+          "recType": 0,
+          "value": 46,
+          "time": 169868
+        },
+        {
+          "recType": 0,
+          "value": 127,
+          "time": 169888
+        },
+        {
+          "recType": 0,
+          "value": 190,
+          "time": 169908
+        },
+        {
+          "recType": 0,
+          "value": 235,
+          "time": 169928
+        },
+        {
+          "recType": 0,
+          "value": 262,
+          "time": 169948
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 170068
+        },
+        {
+          "recType": 0,
+          "value": 81,
+          "time": 170088
+        },
+        {
+          "recType": 0,
+          "value": 126,
+          "time": 170108
+        },
+        {
+          "recType": 0,
+          "value": 162,
+          "time": 170128
+        },
+        {
+          "recType": 0,
+          "value": 192,
+          "time": 170148
+        },
+        {
+          "recType": 0,
+          "value": 213,
+          "time": 170168
+        },
+        {
+          "recType": 0,
+          "value": 227,
+          "time": 170188
+        },
+        {
+          "recType": 0,
+          "value": 234,
+          "time": 170208
+        },
+        {
+          "recType": 0,
+          "value": 232,
+          "time": 170228
+        },
+        {
+          "recType": 0,
+          "value": 223,
+          "time": 170248
+        },
+        {
+          "recType": 0,
+          "value": 206,
+          "time": 170268
+        },
+        {
+          "recType": 0,
+          "value": 47,
+          "time": 170288
+        },
+        {
+          "recType": 0,
+          "value": 46,
+          "time": 170308
+        },
+        {
+          "recType": 0,
+          "value": 45,
+          "time": 170328
+        },
+        {
+          "recType": 0,
+          "value": 43,
+          "time": 170348
+        },
+        {
+          "recType": 0,
+          "value": 42,
+          "time": 170368
+        },
+        {
+          "recType": 0,
+          "value": 41,
+          "time": 170388
+        },
+        {
+          "recType": 0,
+          "value": 40,
+          "time": 170408
+        },
+        {
+          "recType": 0,
+          "value": 39,
+          "time": 170428
+        },
+        {
+          "recType": 0,
+          "value": 37,
+          "time": 170448
+        },
+        {
+          "recType": 0,
+          "value": 36,
+          "time": 170468
+        },
+        {
+          "recType": 0,
+          "value": 35,
+          "time": 170488
+        },
+        {
+          "recType": 0,
+          "value": 34,
+          "time": 170508
+        },
+        {
+          "recType": 0,
+          "value": 33,
+          "time": 170528
+        },
+        {
+          "recType": 0,
+          "value": 31,
+          "time": 170548
+        },
+        {
+          "recType": 0,
+          "value": 30,
+          "time": 170568
+        },
+        {
+          "recType": 0,
+          "value": 29,
+          "time": 170588
+        },
+        {
+          "recType": 0,
+          "value": 28,
+          "time": 170608
+        },
+        {
+          "recType": 0,
+          "value": 26,
+          "time": 170628
+        },
+        {
+          "recType": 0,
+          "value": 25,
+          "time": 170648
+        },
+        {
+          "recType": 0,
+          "value": 24,
+          "time": 170668
+        },
+        {
+          "recType": 0,
+          "value": 23,
+          "time": 170688
+        },
+        {
+          "recType": 0,
+          "value": 22,
+          "time": 170708
+        },
+        {
+          "recType": 0,
+          "value": 21,
+          "time": 170728
+        },
+        {
+          "recType": 0,
+          "value": 19,
+          "time": 170748
+        },
+        {
+          "recType": 0,
+          "value": 18,
+          "time": 170768
+        },
+        {
+          "recType": 0,
+          "value": 17,
+          "time": 170788
+        },
+        {
+          "recType": 0,
+          "value": 16,
+          "time": 170808
+        },
+        {
+          "recType": 0,
+          "value": 14,
+          "time": 170828
+        },
+        {
+          "recType": 0,
+          "value": 13,
+          "time": 170848
+        },
+        {
+          "recType": 0,
+          "value": 12,
+          "time": 170868
+        },
+        {
+          "recType": 0,
+          "value": 11,
+          "time": 170888
+        },
+        {
+          "recType": 0,
+          "value": 10,
+          "time": 170908
+        },
+        {
+          "recType": 0,
+          "value": 8,
+          "time": 170928
+        },
+        {
+          "recType": 0,
+          "value": 7,
+          "time": 170948
+        },
+        {
+          "recType": 0,
+          "value": 6,
+          "time": 170968
+        },
+        {
+          "recType": 0,
+          "value": 5,
+          "time": 170988
+        },
+        {
+          "recType": 0,
+          "value": 4,
+          "time": 171008
+        },
+        {
+          "recType": 0,
+          "value": 2,
+          "time": 171028
+        },
+        {
+          "recType": 0,
+          "value": 1,
+          "time": 171048
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171068
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171088
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171108
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171128
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171148
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171168
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171188
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171208
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171228
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171248
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171268
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171288
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171308
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171328
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171348
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171368
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171388
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171408
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171428
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171448
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171468
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171488
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171508
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171528
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171548
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171568
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171588
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171608
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171628
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171648
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171668
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171688
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171708
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171728
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171748
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171768
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171788
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171808
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171828
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171848
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171868
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171888
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171908
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171928
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171948
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171968
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 171988
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172008
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172028
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172048
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172068
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172088
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172108
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172128
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172148
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172168
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172188
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172208
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172228
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172248
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172268
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172288
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172308
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172328
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172348
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172368
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172388
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172408
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172428
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172448
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172468
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172488
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172508
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172528
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172548
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172568
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172588
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172608
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172628
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172648
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172668
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172688
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172708
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172728
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172748
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172768
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172788
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172808
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172828
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172848
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172868
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172888
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172908
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172928
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172948
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172968
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 172988
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173008
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173028
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173048
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173068
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173088
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173108
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173128
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173148
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173168
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173188
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173208
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173228
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173248
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173268
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173288
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173308
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173328
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173348
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173368
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173388
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173408
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173428
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173448
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173468
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173488
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173508
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173528
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173548
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173568
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173588
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173608
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173628
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173648
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173668
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173688
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173708
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173728
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173748
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173768
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173788
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173808
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173828
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173848
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173868
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173888
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173908
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173928
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173948
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173968
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 173988
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174008
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174028
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174048
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174068
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174088
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174108
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174128
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174148
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174168
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174188
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174208
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174228
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174248
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174268
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174288
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174308
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174328
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174348
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174368
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174388
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174408
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174428
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174448
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174468
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174488
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174508
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174528
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174548
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174568
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174588
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174608
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174628
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174648
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174668
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174688
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174708
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174728
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174748
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174768
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174788
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174808
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174828
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174848
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174868
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174888
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174908
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174928
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174948
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174968
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 174988
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175008
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175028
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175048
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175068
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175088
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175108
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175128
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175148
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175168
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175188
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175208
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175228
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175248
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175268
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175288
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175308
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175328
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175348
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175368
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175388
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175408
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175428
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175448
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175468
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175488
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175508
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175528
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175548
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175602
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175622
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175642
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175662
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175682
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175702
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175722
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175742
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175762
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175782
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175802
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175822
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175842
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175862
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175882
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175902
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175922
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175942
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175962
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 175982
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176002
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176022
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176042
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176062
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176082
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176102
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176122
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176142
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176162
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176182
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176202
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176222
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176242
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176262
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176282
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176302
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176322
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176342
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176362
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176382
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176402
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176422
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176442
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176462
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176482
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176502
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176522
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176542
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176562
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176582
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176602
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176622
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176642
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176662
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176682
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176702
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176722
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176742
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176762
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176782
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176802
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176822
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176842
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176862
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176882
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176902
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176922
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176942
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176962
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 176982
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177002
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177022
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177042
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177062
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177082
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177102
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177122
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177142
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177162
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177182
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177202
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177222
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177242
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177262
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177282
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177302
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177322
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177342
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177362
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177382
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177402
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177422
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177442
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177462
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177482
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177502
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177522
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177542
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177562
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177582
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177602
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177622
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177642
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177662
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177682
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177702
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177722
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177742
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177762
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177782
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177802
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177822
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177842
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177862
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177882
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177902
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177922
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177942
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177962
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 177982
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178002
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178022
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178042
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178062
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178082
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178102
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178122
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178142
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178162
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178182
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178202
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178222
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178242
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178262
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178282
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178302
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178322
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178342
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178362
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178382
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178402
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178422
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178442
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178462
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178482
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178502
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178522
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178542
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178562
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178582
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178602
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178622
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178642
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178662
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178682
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178702
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178722
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178742
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178762
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178782
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178802
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178822
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178842
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178862
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178882
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178902
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178922
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178942
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178962
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 178982
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179002
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179022
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179042
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179062
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179082
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179102
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179122
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179142
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179162
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179182
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179202
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179222
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179242
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179262
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179282
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179302
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179322
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179342
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179362
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179382
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179402
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179422
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179442
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179462
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179482
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179502
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179522
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179542
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179562
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179582
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179602
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179622
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179642
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179662
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179682
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179702
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179722
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179742
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179762
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179782
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179802
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179822
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179842
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179862
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179882
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179902
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179922
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179942
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179962
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 179982
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180002
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180022
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180042
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180062
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180082
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180102
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180122
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180142
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180162
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180182
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180202
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180222
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180242
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180262
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180282
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180302
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180322
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180342
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180362
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180382
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180402
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180422
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180442
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180462
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180482
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180502
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180522
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180542
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180562
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180582
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180602
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180622
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180642
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180662
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180682
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180702
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180722
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180742
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180762
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180782
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180802
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180822
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180842
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180862
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180882
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180902
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180922
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180942
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180962
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 180982
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 181002
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 181022
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 181042
+        },
+        {
+          "recType": 0,
+          "value": 0,
+          "time": 181062
+        }
+      ],
+      "receivePackDataList": null,
+      "sendPackDataList": null
+    },
+    {
+      "recItemList": null,
+      "receivePackDataList": null,
+      "sendPackDataList": null
+    },
+    {
+      "recItemList": null,
+      "receivePackDataList": null,
+      "sendPackDataList": null
+    },
+    {
+      "recItemList": null,
+      "receivePackDataList": null,
+      "sendPackDataList": null
+    },
+    {
+      "recItemList": null,
+      "receivePackDataList": null,
+      "sendPackDataList": null
+    }
+  ],
+  "rtt": [
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 22991
+    },
+    {
+      "recType": 1,
+      "value": 78,
+      "time": 24012
+    },
+    {
+      "recType": 1,
+      "value": 68,
+      "time": 25012
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 26032
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 27032
+    },
+    {
+      "recType": 1,
+      "value": 82,
+      "time": 28051
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 29051
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 30051
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 31072
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 32091
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 33091
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34172
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34192
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34212
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34232
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34252
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34272
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34292
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34312
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34332
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34372
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34392
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34412
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34432
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34452
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34472
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34492
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34512
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34532
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34552
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34572
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34632
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34652
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34672
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34712
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34732
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34752
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34772
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34792
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34812
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34832
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34872
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34892
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34912
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34932
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34952
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34972
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 34992
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 35012
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 35032
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 35052
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 35072
+    },
+    {
+      "recType": 1,
+      "value": 139,
+      "time": 35112
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 36029
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 37029
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 38048
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 39048
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 40048
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 41048
+    },
+    {
+      "recType": 1,
+      "value": 82,
+      "time": 42069
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 43088
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 44088
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 45109
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 46109
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 47128
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 48128
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 49128
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 50128
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 51128
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 52148
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 53148
+    },
+    {
+      "recType": 1,
+      "value": 82,
+      "time": 54148
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 55169
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 56188
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 57188
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 58188
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 59209
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 60209
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 61228
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 62249
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 63249
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 64249
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 65249
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 66249
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 67268
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 68268
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 69268
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 70288
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 71288
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 72288
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 73288
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 74288
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 75308
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 76328
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 77328
+    },
+    {
+      "recType": 1,
+      "value": 82,
+      "time": 78328
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 79328
+    },
+    {
+      "recType": 1,
+      "value": 68,
+      "time": 80328
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 81348
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 82348
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 83348
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 84348
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 85368
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 86368
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 87368
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 88389
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 89389
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 90389
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 91409
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 92409
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 93428
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 94428
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 95448
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 96448
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 97448
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 98448
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 99448
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 100448
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 101469
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 102469
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 103488
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 104488
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 105488
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 106508
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 107508
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 108528
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 109528
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 110549
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 111549
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 112568
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 113568
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 114568
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 115568
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 116588
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 117588
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 118588
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 119588
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 120609
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 121609
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 122628
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 123648
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 124648
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 125648
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 126648
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 127648
+    },
+    {
+      "recType": 1,
+      "value": 82,
+      "time": 128668
+    },
+    {
+      "recType": 1,
+      "value": 82,
+      "time": 129668
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 130689
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 131688
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 132688
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 133688
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 134708
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 135728
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 136748
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 137748
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 138768
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 139768
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 140768
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 141768
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 142788
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 143788
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 144808
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 145828
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 146828
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 147828
+    },
+    {
+      "recType": 1,
+      "value": 65,
+      "time": 148828
+    },
+    {
+      "recType": 1,
+      "value": 83,
+      "time": 149848
+    },
+    {
+      "recType": 1,
+      "value": 74,
+      "time": 150868
+    },
+    {
+      "recType": 1,
+      "value": 75,
+      "time": 151868
+    },
+    {
+      "recType": 1,
+      "value": 71,
+      "time": 152868
+    },
+    {
+      "recType": 1,
+      "value": 68,
+      "time": 153888
+    },
+    {
+      "recType": 1,
+      "value": 70,
+      "time": 154888
+    },
+    {
+      "recType": 1,
+      "value": 70,
+      "time": 155888
+    },
+    {
+      "recType": 1,
+      "value": 71,
+      "time": 156908
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 157928
+    },
+    {
+      "recType": 1,
+      "value": 71,
+      "time": 158928
+    },
+    {
+      "recType": 1,
+      "value": 68,
+      "time": 159928
+    },
+    {
+      "recType": 1,
+      "value": 70,
+      "time": 160948
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 161948
+    },
+    {
+      "recType": 1,
+      "value": 69,
+      "time": 162948
+    },
+    {
+      "recType": 1,
+      "value": 71,
+      "time": 163948
+    },
+    {
+      "recType": 1,
+      "value": 86,
+      "time": 164948
+    },
+    {
+      "recType": 1,
+      "value": 68,
+      "time": 165948
+    },
+    {
+      "recType": 1,
+      "value": 100,
+      "time": 166968
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167048
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167068
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167088
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167108
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167128
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167148
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167168
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167188
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167208
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167228
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167248
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167288
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167308
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167328
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167348
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167368
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167388
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167408
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167428
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167448
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167468
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167488
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167508
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167528
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167548
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167608
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167628
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167648
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167668
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167708
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167728
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167748
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167768
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167788
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167828
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167848
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167868
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167888
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167908
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167928
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167948
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 167988
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 168008
+    },
+    {
+      "recType": 1,
+      "value": 101,
+      "time": 168028
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 169028
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 170048
+    },
+    {
+      "recType": 1,
+      "value": 67,
+      "time": 171048
+    },
+    {
+      "recType": 1,
+      "value": 68,
+      "time": 172068
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 173068
+    },
+    {
+      "recType": 1,
+      "value": 66,
+      "time": 175428
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175622
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175642
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175682
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175702
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175722
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175762
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175782
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175822
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175842
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175862
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175902
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175942
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 175982
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 176002
+    },
+    {
+      "recType": 1,
+      "value": 115,
+      "time": 176042
+    },
+    {
+      "recType": 1,
+      "value": 75,
+      "time": 177042
+    },
+    {
+      "recType": 1,
+      "value": 78,
+      "time": 178042
+    },
+    {
+      "recType": 1,
+      "value": 72,
+      "time": 179062
+    },
+    {
+      "recType": 1,
+      "value": 77,
+      "time": 180082
+    }
+  ],
+  "fps": [
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 22991
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 24012
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 25012
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 26032
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 27032
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 28051
+    },
+    {
+      "recType": 2,
+      "value": 51,
+      "time": 29051
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 30051
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 31072
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 32091
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 33091
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 34192
+    },
+    {
+      "recType": 2,
+      "value": 52,
+      "time": 35109
+    },
+    {
+      "recType": 2,
+      "value": 47,
+      "time": 36109
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 37109
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 38128
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 39128
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 40148
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 41148
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 42169
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 43188
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 44188
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 45209
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 46209
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 47209
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 48209
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 49209
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 50228
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 51228
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 52228
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 53228
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 54249
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 55249
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 56249
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 57268
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 58268
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 59289
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 60289
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 61309
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 62328
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 63349
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 64349
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 65349
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 66348
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 67368
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 68368
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 69389
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 70389
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 71389
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 72408
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 73408
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 74408
+    },
+    {
+      "recType": 2,
+      "value": 57,
+      "time": 75429
+    },
+    {
+      "recType": 2,
+      "value": 57,
+      "time": 76429
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 77429
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 78429
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 79448
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 80448
+    },
+    {
+      "recType": 2,
+      "value": 57,
+      "time": 81448
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 82448
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 83448
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 84468
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 85468
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 86488
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 87488
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 88508
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 89508
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 90508
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 91528
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 92528
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 93528
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 94528
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 95549
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 96549
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 97549
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 98549
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 99549
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 100568
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 101568
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 102568
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 103588
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 104588
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 105588
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 106588
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 107588
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 108588
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 109609
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 110609
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 111628
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 112628
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 113628
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 114648
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 115648
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 116648
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 117648
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 118668
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 119668
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 120668
+    },
+    {
+      "recType": 2,
+      "value": 55,
+      "time": 121668
+    },
+    {
+      "recType": 2,
+      "value": 51,
+      "time": 122689
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 123689
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 124708
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 125708
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 126728
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 127728
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 128728
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 129749
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 130749
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 131748
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 132768
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 133768
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 134788
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 135788
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 136808
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 137828
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 138828
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 139848
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 140848
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 141868
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 142868
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 143888
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 144888
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 145888
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 146908
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 147908
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 148908
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 149928
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 150928
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 151948
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 152948
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 153968
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 154968
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 155988
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 156988
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 157988
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 158988
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 160008
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 161028
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 162028
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 163028
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 164028
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 165028
+    },
+    {
+      "recType": 2,
+      "value": 60,
+      "time": 166048
+    },
+    {
+      "recType": 2,
+      "value": 61,
+      "time": 167068
+    },
+    {
+      "recType": 2,
+      "value": 55,
+      "time": 168088
+    },
+    {
+      "recType": 2,
+      "value": 48,
+      "time": 169088
+    },
+    {
+      "recType": 2,
+      "value": 59,
+      "time": 170108
+    },
+    {
+      "recType": 2,
+      "value": 57,
+      "time": 171128
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 172128
+    },
+    {
+      "recType": 2,
+      "value": 56,
+      "time": 173128
+    },
+    {
+      "recType": 2,
+      "value": 44,
+      "time": 175428
+    },
+    {
+      "recType": 2,
+      "value": 44,
+      "time": 176462
+    },
+    {
+      "recType": 2,
+      "value": 44,
+      "time": 177482
+    },
+    {
+      "recType": 2,
+      "value": 52,
+      "time": 178482
+    },
+    {
+      "recType": 2,
+      "value": 57,
+      "time": 179502
+    },
+    {
+      "recType": 2,
+      "value": 58,
+      "time": 180502
+    }
+  ]
+}
