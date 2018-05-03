@@ -54,8 +54,10 @@
 
 </style>
 <link rel="stylesheet" href="style.css" type="text/css">
-<script src="amcharts/amcharts/amcharts.js" type="text/javascript"></script>
-<script src="amcharts/amcharts/serial.js" type="text/javascript"></script>
+<script src="amstockchart/amcharts/amcharts.js" type="text/javascript"></script>
+<script src="amstockchart/amcharts/serial.js" type="text/javascript"></script>
+<script src="amstockchart/amcharts/amstock.js" type="text/javascript"></script>
+<script src="amstockchart/amcharts/themes/light.js" type="text/javascript"></script>
 <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="timeline-parser.js"></script>
 <body>
@@ -82,11 +84,8 @@
 
 <br/>
 <h3>关键数据图表</h3>
-<div class="chartWrapper" >
-  <div class="chartAreaWrapper" id="chartAreaWrapper">
-  </div>
+<div class="chartWrapper" id="chartWrapper">
 </div>
-
 
 <h3>当前帧Timeline</h3>
 <div id = "timeline">
@@ -275,85 +274,104 @@ function showWithLogData(logData)
 {
     fillRaceInfo(logData.raceInfo);
 
-    chart = new AmCharts.AmSerialChart();
+    AmCharts.makeChart("chartWrapper", {
+        type: "stock",
 
-    var rtt = logData.rtt;
-    
-    chart.dataProvider = rtt;
-    chart.categoryField = "time";
-    chart.marginLeft = 80;
-    chart.height = 400;
+        dataSets: [{
+                title: "RTT",
+                fieldMappings: [{
+                    fromField: "value",
+                    toField: "value"
+                }],
+                dataProvider: logData.rtt,
+                categoryField: "time"
+            }
+            // ,
+            // {
+            //     title: "FPS",
+            //     fieldMappings: [{
+            //         fromField: "value",
+            //         toField: "value2"
+            //     }],
+            //     dataProvider: logData.fps,
+            //     categoryField: "time",
+            //     compared: true
+            // }
+        ],
 
-    chart.addListener("dataUpdated", zoomChart);
+        panels: [{
 
-    // AXES
-    // category
-    var categoryAxis = chart.categoryAxis;
-    categoryAxis.dashLength = 3;
-    // categoryAxis.minorGridEnabled = true;
-    // categoryAxis.minorGridAlpha = 0.1;
-    categoryAxis.labelFunction = function(value) {
-        var _beginTime = 0;
-        if (logData.raceInfo.beginGameTime)
-        {
-            _beginTime = logData.raceInfo.beginGameTime;
-        }
-        return (parseFloat(value - _beginTime)/1000).toFixed(2);
-    };
+                showCategoryAxis: false,
+                categoryAxis:{
+                    categoryFunction : function(category, dataItem, categoryAxis) {
+                        var _beginTime = 0;
+                        if (logData.raceInfo.beginGameTime)
+                        {
+                            _beginTime = logData.raceInfo.beginGameTime;
+                        }
+                        return (parseFloat(dataItem.dataContext.time - _beginTime)/1000).toFixed(2);
+                    }
+                },
+                title: "RTT",
+                recalculateToPercents: "never",
+                stockGraphs: [{
+                    id: "gRTT",
+                    valueField: "value",
+                    comparable: true
+                }],
 
-    //value
-    var valueAxis = new AmCharts.ValueAxis();
-    valueAxis.axisAlpha = 0;
-    valueAxis.inside = true;
-    valueAxis.dashLength = 3;
-    chart.addValueAxis(valueAxis);
+                stockLegend: {
+                    
+                }
+            }
+            // , {
 
-    // GRAPH
-    graph = new AmCharts.AmGraph();
-    //graph.type = "smoothedLine"; // this line makes the graph smoothed line.
-    graph.lineColor = "#d1655d";
-    //graph.negativeLineColor = "#637bb6"; // this line makes the graph to change color when it drops below 0
-    graph.bullet = "round";
-    graph.bulletSize = 8;
-    //graph.bulletBorderColor = "#FFFFFF";
-    //graph.bulletBorderAlpha = 1;
-    //graph.bulletBorderThickness = 2;
-    graph.lineThickness = 2;
-    graph.valueField = "value";
-    graph.balloonText = "[[category]]<br><b><span style='font-size:14px;'>[[value]]</span></b>";
-    chart.addGraph(graph);
+            //     showCategoryAxis: true,
+            //     title: "FPS",
+            //     recalculateToPercents: "never",
+            //     stockGraphs: [{
+            //         id: "gFPS",
+            //         valueField: "value2",
+            //         compareField: "value2",
+            //         comparable: true,
+            //         visibleInLegend: false
+            //     }],
 
+            //     stockLegend: {
+                    
+            //     }
+            // }
+        ],
 
-    graph = new AmCharts.AmGraph();
-    //graph.type = "smoothedLine"; // this line makes the graph smoothed line.
-    graph.lineColor = "#31ff5d";
-    //graph.negativeLineColor = "#637bb6"; // this line makes the graph to change color when it drops below 0
-    graph.bullet = "round";
-    graph.bulletSize = 8;
-    //graph.bulletBorderColor = "#FFFFFF";
-    //graph.bulletBorderAlpha = 1;
-    //graph.bulletBorderThickness = 2;
-    graph.lineThickness = 2;
-    graph.valueField = "value";
-    graph.balloonText = "[[category]]<br><b><span style='font-size:14px;'>[[value]]</span></b>";
-    chart.addGraph(graph);
+        chartScrollbarSettings: {
+            graph: "gRTT"
+        },
 
-    // CURSOR
-    var chartCursor = new AmCharts.ChartCursor();
-    chartCursor.cursorAlpha = 0;
-    chartCursor.cursorPosition = "mouse";
-    //chartCursor.categoryBalloonDateFormat = "YYYY";
-    chart.addChartCursor(chartCursor);
+        chartCursorSettings: {
+            valueBalloonsEnabled: true,
+            fullWidth:true,
+            cursorAlpha:0.1
+        },
 
-
-    // SCROLLBAR
-    var chartScrollbar = new AmCharts.ChartScrollbar();
-    chart.addChartScrollbar(chartScrollbar);
-
-    chart.creditsPosition = "bottom-right";
-
-    // WRITE
-    chart.write("chartAreaWrapper");
+        // periodSelector: {
+        //     periods: [{
+        //         period: "MM",
+        //         selected: true,
+        //         count: 1,
+        //         label: "1 month"
+        //     }, {
+        //         period: "YYYY",
+        //         count: 1,
+        //         label: "1 year"
+        //     }, {
+        //         period: "YTD",
+        //         label: "YTD"
+        //     }, {
+        //         period: "MAX",
+        //         label: "MAX"
+        //     }]
+        // }
+    });
 }
 
 function loadLogFromUrl(url)
@@ -363,8 +381,6 @@ function loadLogFromUrl(url)
     $.get(url, function(result){
         var logData = JSON.parse(result);
         showWithLogData(logData);
-
-        zoomChart();
     });
 }
 
