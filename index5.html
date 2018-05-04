@@ -327,7 +327,7 @@
             return dataDesArr;
         }
 
-        function getDataProvider(dataDesArr)
+        function getDataProvider(dataDesArr, timeOffset = 0)
         {
             var dataProvider = [];
 
@@ -385,7 +385,7 @@
 
                 if (currTime == min)
                 {
-                    currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value;
+                    currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value - timeOffset;
                 }
                 else
                 {
@@ -395,7 +395,7 @@
                         "time": currTime,
                     };
 
-                    currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value;
+                    currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value - timeOffset;
 
                     dataProvider.push(currData);
                 }
@@ -490,7 +490,8 @@
                     "scrollbarHeight": 40
                 },
                 "chartCursor": {
-                    "zoomable": true
+                    "zoomable": true,
+                    //"categoryBalloonText" : "[[category]]-[[toCategory]]"
                 },
                 "categoryAxis": {
                     "parseDates": false,
@@ -523,7 +524,7 @@
 
                             var carInfo = carInfos[idx];
                             var timelineArr = carInfo.timelineArray;
-                            console.log(event.item);
+                            //console.log(event.item);
                             var time = event.item.dataContext.time;
                             var timeLineToShow = null;
                             for (var i = timelineArr.length-1; i >=0; i--)
@@ -622,7 +623,7 @@
                 loadLogFromUrl(url);
             });
 
-            loadLogFromUrl("http://localhost/synclogs/1.rec");
+            //loadLogFromUrl("http://localhost/synclogs/1.rec");
 
         });
 
