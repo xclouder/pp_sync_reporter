@@ -295,7 +295,7 @@
             dataDesArr.push(fpsDes);
 
             carInfos = getCarInfos(logData.cars);
-            console.log(carInfos);
+            //console.log(carInfos);
 
             for (var i in carInfos)
             {
@@ -402,7 +402,7 @@
             }
 
 
-            console.log(dataProvider);
+            //console.log(dataProvider);
             //return [{rtt:12, fps:123, time:1}, {rtt:22, time:2}, {rtt:2, fps:22, time:3}];
             return dataProvider;
         }
@@ -430,10 +430,11 @@
                     "title": des.label,
                     "valueField": des.valueMapTo,
                     "valueAxis": des.axis,
-                    "bullet": "square",
+                    "bullet": "round",
                     "bulletBorderAlpha": 1,
                     "useLineColorForBulletBorder": true,
-                    "bulletColor": getRandomColor(),
+                    "carIndex": des.valueMapTo
+                    //"bulletColor": getRandomColor(),
                     //"labelText": "rtt:[[rtt]]",
                 }
 
@@ -449,7 +450,7 @@
         }
 
         function showWithLogData(logData) {
-            console.log(logData);
+            //console.log(logData);
 
             fillRaceInfo(logData.raceInfo);
             var _dataDesArr = getDataDesArr(logData);
@@ -497,6 +498,14 @@
                     "axisColor": "#555555",
                     "gridAlpha": 0,
                     "gridColor": "#FFFFFF",
+                    "categoryFunction" : function(time, dataItem) {
+                        var _beginTime = 0;
+                        if (logData.raceInfo.beginGameTime)
+                        {
+                            _beginTime = logData.raceInfo.beginGameTime;
+                        }
+                        return (parseFloat(dataItem.time - _beginTime)/1000).toFixed(2);
+                    }
                 },
                 "export": {
                     "enabled": false
@@ -504,7 +513,45 @@
                 "listeners": [{
                     "event": "clickGraphItem",
                     "method": function(event) { 
-                        console.log(event.item.dataContext);
+                        var graph = event.item.graph;
+                        var title = graph.title;
+
+                        if (title.includes("DeltaPos"))
+                        {
+                            var indexStr = title.substring("DeltaPos(Car-".length, "DeltaPos(Car-".length + 1);
+                            var idx = parseInt(indexStr);
+
+                            var carInfo = carInfos[idx];
+                            var timelineArr = carInfo.timelineArray;
+                            console.log(event.item);
+                            var time = event.item.dataContext.time;
+                            var timeLineToShow = null;
+                            for (var i = timelineArr.length-1; i >=0; i--)
+                            {
+                                var timeLine = timelineArr[i];
+                                if (timeLine[0].time < time)
+                                {
+                                    timeLineToShow = timeLine;
+                                    break;
+                                }
+                            }
+
+
+                            if (timeLineToShow)
+                            {
+                                // console.log("found timeline to show:");
+                                // console.log(timeLineToShow);
+                                renderTimelineInfo(timeLineToShow);
+                            }
+                            else
+                            {
+                                console.log("timeline not found");
+                            }
+                        }
+                        else
+                        {
+                            clearTimelineInfo();
+                        }
                     }
                 }]
             });
