@@ -84,6 +84,8 @@
             <p id="roomId">pending...</p>
             <h4>游戏开始时间:</h4>
             <p id="gameTime">pending...</p>
+            <h4>地图名称:</h4>
+            <p id="mapName">pending...</p>
         </div>
         <br/>
         <h3>关键数据图表</h3>
@@ -147,10 +149,10 @@
                 time:111,
                 value:222
             }],
-            receivePacks:{
+            receivePacks:[{
                 time:111,
-                ...
-            }
+                value:333,
+            }]
         }
 
         */
@@ -251,13 +253,209 @@
         }
 
         var chart = null;
-        var dataSets = [];
-        var carInfos = {};
+        var dataProvider = [];
+        var carInfos = [];
+
+        var axisMap = {
+            "deltaPos" : "deltaPosAxis",
+            "common" : "commonAxis",
+        };
+
+        /*
+        dataDes struct:
+        {
+            "data":[{recType:1, value:100, time:12}],
+            "valueMapTo": "deltaPos-0",
+            "label" : "123"
+        }
+        */
+        function getDataDesArr(logData)
+        {
+            var dataDesArr = [];
+
+            //RTT
+            var rtt = logData.rtt;
+            var rttDes = {
+                "data" : rtt,
+                "valueMapTo" : "rtt",
+                "label" : "RTT",
+                "axis" : "commonAxis"
+            };
+
+            dataDesArr.push(rttDes);
+
+            //FPS
+            var fps = logData.fps;
+            var fpsDes = {
+                "data" : fps,
+                "valueMapTo" : "fps",
+                "label" : "FPS",
+                "axis" : "commonAxis"
+            }
+            dataDesArr.push(fpsDes);
+
+            carInfos = getCarInfos(logData.cars);
+            console.log(carInfos);
+
+            for (var i in carInfos)
+            {
+                var carInfo = carInfos[i];
+
+                //deltaPos
+                var currCarDeltaPosDes = {
+                    "data" : carInfo.deltaPosArray,
+                    "valueMapTo" : "deltaPos_" + i,
+                    "label" : "DeltaPos(Car-" + i + ")",
+                    "axis" : "deltaPosAxis"
+                }
+
+                dataDesArr.push(currCarDeltaPosDes);
+
+
+                //receivePack
+                var currCarReceivePack = {
+                    "data" : carInfo.receivePcksArray,
+                    "valueMapTo" : "receivePack_" + i,
+                    "label" : "ReceivePack(Car-" + i + ")",
+                    "axis" : "commonAxis"
+                }
+                dataDesArr.push(currCarReceivePack);
+            }
+
+            //console.log(dataDesArr);
+
+            return dataDesArr;
+        }
+
+        function getDataProvider(dataDesArr)
+        {
+            var dataProvider = [];
+
+            var currTime = 0;
+            var currData;
+
+            //记录每个dataDes当前的元素index, time
+            var mergeRecs = [];
+            for (var i = 0; i < dataDesArr.length; i++)
+            {
+                mergeRecs.push({
+                    index: 0,
+                    headItemTime: 0,
+                    finished: false,
+                });
+            }
+
+            //console.log(mergeRecs);
+            
+            var finishedCount = 0;
+            while (finishedCount < dataDesArr.length)
+            {
+                for (var i in dataDesArr)
+                {
+                    var des = dataDesArr[i];
+                    var currRec = mergeRecs[i];
+                    
+                    currRec.headItemTime = des.data[currRec.index].time;
+                }
+
+                var min = Number.MAX_SAFE_INTEGER;
+                var minIndex = 0;
+                for (var i in mergeRecs)
+                {
+                    var currRec = mergeRecs[i];
+
+                    if (!currRec.finished)
+                    {
+                        if (currRec.headItemTime < min)
+                        {
+                            min = currRec.headItemTime;
+                            minIndex = i;
+                        }
+                    }
+                }
+
+                var selectedDes = dataDesArr[minIndex];
+                var selectedMergeRec = mergeRecs[minIndex];
+                selectedMergeRec.index = selectedMergeRec.index + 1;
+                if (selectedMergeRec.index >= selectedDes.data.length - 1)
+                {
+                    mergeRecs[minIndex].finished = true;
+                    finishedCount++;
+                }
+
+                if (currTime == min)
+                {
+                    currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value;
+                }
+                else
+                {
+                    currTime = min;
+
+                    currData = {
+                        "time": currTime,
+                    };
+
+                    currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value;
+
+                    dataProvider.push(currData);
+                }
+            }
+
+
+            console.log(dataProvider);
+            //return [{rtt:12, fps:123, time:1}, {rtt:22, time:2}, {rtt:2, fps:22, time:3}];
+            return dataProvider;
+        }
+
+        function getGraphs(dataDesArr)
+        {
+            var graphs = [];
+
+            for (var i = 0; i < dataDesArr.length; i++)
+            {
+                var des = dataDesArr[i];
+                /*
+                var currCarDeltaPosDes = {
+                    "data" : carInfo.deltaPosArray,
+                    "valueMapTo" : "deltaPos_" + i,
+                    "label" : "DeltaPos(Car-" + i + ")",
+                    "axis" : "deltaPosAxis"
+                }
+                */
+                var g = {
+                    "alphaField": "alpha",
+                    "balloonText": "[["+ des.valueMapTo + "]]",
+                    "fillAlphas": 0,
+                    "legendValueText": "[[" + des.valueMapTo + "]]",
+                    "title": des.label,
+                    "valueField": des.valueMapTo,
+                    "valueAxis": des.axis,
+                    "bullet": "square",
+                    "bulletBorderAlpha": 1,
+                    "useLineColorForBulletBorder": true,
+                    "bulletColor": getRandomColor(),
+                    //"labelText": "rtt:[[rtt]]",
+                }
+
+                graphs.push(g);
+            }
+
+            return graphs;
+        }
+
+        function getRandomColor()
+        {
+            return "#669933";
+        }
 
         function showWithLogData(logData) {
-            fillRaceInfo(logData.raceInfo);
+            console.log(logData);
 
-            var rtt = logData.rtt;
+            fillRaceInfo(logData.raceInfo);
+            var _dataDesArr = getDataDesArr(logData);
+
+            dataProvider = getDataProvider(_dataDesArr);
+            var graphs = getGraphs(_dataDesArr);
 
             var chart = AmCharts.makeChart("chartdiv", {
                 "type": "serial",
@@ -268,59 +466,22 @@
                     "valueAlign": "left",
                     "valueWidth": 120
                 },
-                "dataProvider": [{
-                    "time" : 1,
-                    "rtt" : 30,
-                    "fps" : 30
-                }, {
-                    "time" : 2,
-                    "rtt" : 75,
-                }, {
-                    "time" : 3,
-                    "rtt" : 60,
-                    "fps" : 43
-                }],
+                "dataProvider": dataProvider,
                 "valueAxes": [{
-                    "id": "rttAxis",
+                    "id": "commonAxis",
                     "axisAlpha": 0,
                     "gridAlpha": 0,
                     "position": "left",
-                    "title": "RTT"
+                    "title": "Value"
                 }, {
-                    "id": "fpsAxis",
+                    "id": "deltaPosAxis",
                     "axisAlpha": 0,
                     "gridAlpha": 0,
-                    "labelsEnabled": false,
+                    //"labelsEnabled": true,
                     "position": "right"
                 }
                 ],
-                "graphs": [{
-                    "alphaField": "alpha",
-                    "balloonText": "[[rtt]] ms",
-                    "fillAlphas": 0,
-                    "legendValueText": "[[rtt]] ms",
-                    "title": "RTT",
-                    "valueField": "rtt",
-                    "valueAxis": "rttAxis",
-                    "bullet": "square",
-                    "bulletBorderAlpha": 1,
-                    "useLineColorForBulletBorder": true,
-                    "bulletColor": "#669933",
-                    //"labelText": "rtt:[[rtt]]",
-                }, {
-                    "balloonText": "[[fps]]",
-                    "bullet": "round",
-                    "bulletBorderAlpha": 1,
-                    "useLineColorForBulletBorder": true,
-                    "bulletColor": "#FFFFFF",
-                    "labelPosition": "right",
-                    //"labelText": "fps:[[fps]]",
-                    "legendValueText": "[[fps]]",
-                    "title": "FPS",
-                    "fillAlphas": 0,
-                    "valueField": "fps",
-                    "valueAxis": "fpsAxis"
-                }],
+                "graphs": graphs,
                 "categoryField": "time",
                 "chartScrollbar": {
                     "autoGridCount": true,
@@ -339,7 +500,13 @@
                 },
                 "export": {
                     "enabled": false
-                 }
+                },
+                "listeners": [{
+                    "event": "clickGraphItem",
+                    "method": function(event) { 
+                        console.log(event.item.dataContext);
+                    }
+                }]
             });
         }
 
