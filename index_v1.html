@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SyncReport Viewer</title>
+<meta charset="UTF-8"/>
+<style>
+    body {
+        width: 900px;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+
+    #timeline {
+    	height:500px;
+    }
+
+    table.hovertable {
+		font-family: verdana,arial,sans-serif;
+		font-size:11px;
+		color:#333333;
+		border-width: 1px;
+		border-color: #999999;
+		border-collapse: collapse;
+	}
+	table.hovertable th {
+		background-color:#c3dde0;
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #a9c6c9;
+	}
+	table.hovertable tr {
+		background-color:#d4e3e5;
+	}
+	table.hovertable td {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #a9c6c9;
+	}
+
+/*	.chartWrapper {
+		position: relative;
+	}
+
+	.chartWrapper > canvas {
+		position: absolute;
+		left: 0;
+		top: 0;
+		pointer-events: none;
+	}
+
+	.chartAreaWrapper {
+		width: 15000px;
+		overflow-x: scroll;
+	}*/
+
+    div.search_box
+    {
+        width:100%;
+        border:1px #999999 solid;
+        background:#a9c6c9;
+        text-align:center;
+        padding:20px;
+    }
+    div.search_box #logurl {
+        width:450px;
+        margin-left:20px;
+    }
+
+</style>
+<script type="text/javascript" src="Chart.bundle.min.js"></script>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="timeline-parser.js"></script>
+<body>
+
+<div class="search_box">
+    <label>输入日志的url</label><input type="text" name="logurl" id="logurl" value="http://localhost/synclogs/1.rec" />
+    <input type="button" name="go" id="go" value="查询"/>
+</div>
+
+<h3>比赛信息</h3>
+<div>
+	<h4>OpenId:</h4>
+	<p id="openId">pending...</p>
+	
+	<h4>车位置:</h4>
+	<p id="carIndex">pending...</p>
+
+	<h4>房间Id:</h4>
+	<p id="roomId">pending...</p>
+
+	<h4>游戏开始时间:</h4>
+	<p id="gameTime">pending...</p>
+</div>
+
+<br/>
+<h3>关键数据图表</h3>
+<div class="chartWrapper" >
+  <div class="chartAreaWrapper" id="chartAreaWrapper">
+    <canvas id="myChart" width="1200" height="400"></canvas>
+  </div>
+</div>
+
+
+<h3>当前帧Timeline</h3>
+<div id = "timeline">
+	<table class="hovertable">
+		<tr>
+			<td>时间</td>
+			<td>类型</td>
+			<td>描述</td>
+		</tr>
+	</table>
+</div>
+
+<script>
+
+function fillRaceInfo(raceInfo)
+{
+    $('#openId').html(raceInfo.myOpenId);
+    $('#carIndex').html(raceInfo.myCarIndex);
+    $('#roomId').html(raceInfo.roomId);
+    $('#gameTime').html(raceInfo.startDateTime);
+}
+
+function mapObjectArray(arr, mapCfg)
+{
+    var newArr = new Array();
+
+    if (!arr)
+    {
+        return newArr;
+    }
+
+    for(var j = 0; j < arr.length; j++){
+        var data = arr[j];
+        var mappedObj = {};
+
+        for (var k = 0; k < mapCfg.length; k++)
+        {
+            cfg = mapCfg[k];
+
+            mappedObj[cfg.to] = data[cfg.from];
+        }
+        
+        newArr.push(mappedObj);
+    }
+
+    return newArr;
+}
+
+
+/*mapCfg format:
+[
+{from:"key1", to:"mapped_key1"},
+{from:"key2", to:"mapped_key2"},
+]
+*/
+
+
+/*
+car info struct:
+{
+    index: 0,
+    deltaPosArray:[{
+        time:111,
+        value:222
+    }],
+    receivePacks:{
+        time:111,
+        ...
+    }
+}
+
+*/
+function getCarInfos(rawCars)
+{
+    var infos = new Array();
+
+    if (!rawCars)
+    {
+        return infos;
+    }
+
+    for (var i = 0; i < rawCars.length; i++)
+    {
+        rawData = rawCars[i];
+
+        var info = {
+            index : i,
+            deltaPosArray : [],
+            receivePcksArray:[],    //value为收包时间-发包时间
+            timelineArray : [],
+        };
+
+        var recArr = rawData.recItemList;
+        if (recArr != null)
+        {
+
+            //parse deltaPos
+            for (var k = 0; k < recArr.length; k++)
+            {
+                var rec = recArr[k];
+                if (rec.recType == 0)   // enum 0 > DeltaPos
+                {
+                    info.deltaPosArray.push(rec);
+                }
+            }
+
+            timelineArr = rawData.timelineDataList;
+            for (var k = 0; k < timelineArr.length; k++)
+            {
+                var tln = timelineArr[k];
+                var tlnEvtArr = tln.evtList;
+
+                //receive pack
+                var rawReceivePack = tlnEvtArr[0];
+                if (rawReceivePack.evt == 0)
+                {
+                    var _recvData = {
+                        time: rawReceivePack.time,
+                        value: (rawReceivePack.data.rcvTime - rawReceivePack.data.sendTime)
+                    };
+
+                    info.receivePcksArray.push(_recvData);
+                }
+                else
+                {
+                    console.error("error! first timeline evt is not receive pack");
+                }
+
+                info.timelineArray.push(tlnEvtArr);
+            }
+
+            infos[i] = info; 
+        }
+    }
+    return infos;
+}
+
+CAR_COLORS = [
+    "rgb(66, 33, 66)",
+    "rgb(66, 132, 96)",
+    "rgb(143, 132, 96)",
+    "rgb(3, 132, 96)",
+    "rgb(201, 63, 96)",
+    "rgb(186, 132, 0)",
+];
+
+CAR_COLORS_RECV_PACK = [
+    "rgb(166, 93, 16)",
+    "rgb(6, 232, 196)",
+    "rgb(155, 12, 33)",
+    "rgb(31, 232, 196)",
+    "rgb(201, 63, 6)",
+    "rgb(99, 132, 132)",
+];
+
+function getCarColor(index)
+{
+    return CAR_COLORS[index];
+}
+
+function getCarColorRecvPack(index)
+{
+    return CAR_COLORS_RECV_PACK[index];
+}
+
+function getRecordData(arr)
+{
+    return mapObjectArray(arr, [{from:"time", to:"x"},
+        {from:"value", to:"y"}]);
+}
+
+function setPendingState()
+{
+    var pendingTxt = "Pending...";
+    $('#openId').html(pendingTxt);
+    $('#carIndex').html(pendingTxt);
+    $('#roomId').html(pendingTxt);
+    $('#gameTime').html(pendingTxt);
+}
+
+var myChart = null;
+var dataSets = [];
+var carInfos = {};
+
+function showWithLogData(logData)
+{
+    fillRaceInfo(logData.raceInfo);
+
+    dataSets = [];
+    carInfos = {};
+
+    //RTT
+    var rtt = logData.rtt;
+    var rttData = getRecordData(rtt);
+
+    //RTT数据
+    dataSets.push(
+        {
+            label: "RTT",
+            data: rttData,
+            fill: false,
+            borderColor: "rgb(75, 192, 66)",
+            lineTension: 0, //performance better
+            showLine: true,
+            spanGaps: false
+        }
+    );
+
+    //RTT基准线数据
+    dataSets.push({
+        label: "desired RTT",
+        data: [{x:28000,y:60}, {x:220000, y:60}],
+        fill: false,
+        borderColor: "rgb(175, 192, 66)",
+        lineStyle:"dash",
+        lineTension: 0, //performance better
+        showLine: true,
+        borderDash: [10,5],
+        spanGaps: false
+    });
+
+    //FPS
+    var fps = logData.fps;
+    var fpsData = getRecordData(fps);
+    dataSets.push(
+        {
+            label: "FPS",
+            data: fpsData,
+            fill: false,
+            borderColor: "rgb(200, 16, 66)",
+            lineTension: 0, //performance better
+            showLine: true,
+            spanGaps: false
+        }
+    );
+
+    //analyze car data(DeltaPos Distance, and so on)
+    carInfos = getCarInfos(logData.cars);
+    for (var prop in carInfos)
+    {
+        var carInfo = carInfos[prop];
+        var deltaPosData = getRecordData(carInfo.deltaPosArray);
+
+        var _dataSet = {
+            canRelateToTimeline: true,
+            carIndex: carInfo.index,
+            label: "DeltaPos(Car-" + carInfo.index + ")",
+            data: deltaPosData,
+            fill: false,
+            borderColor: getCarColor(carInfo.index),
+            lineTension: 0, //performance better
+            showLine: true,
+            spanGaps: false
+        };
+
+        dataSets.push(_dataSet);
+
+        var recvPackData = getRecordData(carInfo.receivePcksArray);
+        var _dataSet_RecvPack = {
+            label: "RecvPack(Car-" + carInfo.index + ")",
+            data: recvPackData,
+            fill: false,
+            borderColor: getCarColorRecvPack(carInfo.index),
+            lineTension: 0, //performance better
+            showLine: true,
+            spanGaps: false
+        }
+
+        dataSets.push(_dataSet_RecvPack);
+    }
+
+    //draw chart
+    var ctx = $("#myChart").get(0).getContext('2d');
+    myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            datasets: dataSets
+        },
+        options: {
+            scales: {
+                xAxes: [{
+                    type: 'linear',
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'time',
+                        //fontStyle: 'bold'
+                    },
+                    ticks: {
+                        callback: function(value, index, values) {
+                            var _beginTime = 0;
+                            if (logData.raceInfo.beginGameTime)
+                            {
+                                _beginTime = logData.raceInfo.beginGameTime;
+                            }
+                            return (parseFloat(value - _beginTime)/1000).toFixed(2);
+                        },
+                        //autoSkip: true,
+                        //maxTicksLimit: 10000,
+                        stepSize: 100
+                    }
+                }]
+            },
+            events: ['click'],
+        }
+    });
+
+}
+
+function loadLogFromUrl(url)
+{
+    setPendingState();
+
+    $.get(url, function(result){
+        var logData = JSON.parse(result);
+        showWithLogData(logData);
+    });
+}
+
+function renderTimelineInfo(timeline)
+{
+    var htmlArr = [];
+
+    /*
+    <table class="hovertable">
+        <tr>
+            <td>时间</td>
+            <td>类型</td>
+            <td>描述</td>
+        </tr>
+    </table>
+    */
+    htmlArr.push("<table class='hovertable'>");
+    htmlArr.push("<tr><td>时间</td><td>类型</td><td>描述</td></tr>");
+
+    for (var i = 0; i < timeline.length; i++)
+    {
+        var item = timeline[i];
+        var descriptor = timelineDesFactory.getDescriptor(item.evt);
+        var data = descriptor.getDesItem(item);
+
+        htmlArr.push("<tr>");
+
+        htmlArr.push("<td>");
+        htmlArr.push(data.time);
+        htmlArr.push("</td>");
+
+        htmlArr.push("<td>");
+        htmlArr.push(data.evt);
+        htmlArr.push("</td>");
+
+        htmlArr.push("<td>");
+        htmlArr.push(data.des);
+        htmlArr.push("</td>");
+
+        htmlArr.push("</tr>");
+    }
+
+        
+    htmlArr.push("</table>");
+
+    var html = htmlArr.join("");
+    $("#timeline").html(html);
+}
+
+function clearTimelineInfo()
+{
+    $("#timeline").html("invalid");
+}
+
+$(document).ready(function(){
+    $("#go").click(function(){
+        var url = $("#logurl").val();
+        console.log("go with url:" + url);
+        loadLogFromUrl(url);
+    });
+
+ 	$("#myChart").click( 
+        function(evt){
+            var selectedElementArr = myChart.getElementAtEvent(evt);
+
+            if (selectedElementArr.length > 0)
+            {
+            	var ele = selectedElementArr[0];
+            	var ds = dataSets[ele._datasetIndex];
+            	// console.log(ds);
+            	// console.log(ds.data[ele._index]);
+            	var selectedItem = ds.data[ele._index];
+            	var time = selectedItem.x;
+
+            	if (ds.canRelateToTimeline)
+            	{
+            		console.log("show timeline info, carIndex:" + ds.carIndex);
+            		var carInfo = carInfos[ds.carIndex];
+            		//console.log(carInfo);
+
+            		var timelineArr = carInfo.timelineArray;
+            		
+            		var timeLineToShow = null;
+            		for (var i = timelineArr.length-1; i >=0; i--)
+            		{
+            			var timeLine = timelineArr[i];
+            			if (timeLine[0].time < time)
+            			{
+            				timeLineToShow = timeLine;
+            				break;
+            			}
+            		}
+
+
+            		if (timeLineToShow)
+            		{
+            			// console.log("found timeline to show:");
+            			// console.log(timeLineToShow);
+            			renderTimelineInfo(timeLineToShow);
+            		}
+            		else
+            		{
+            			console.log("timeline not found");
+            		}
+            	}
+            	else
+            	{
+            		clearTimelineInfo();
+            	}
+            }
+            else
+            {
+            	clearTimelineInfo();
+            }
+
+        }
+    );
+
+});
+
+
+</script>
+</body>
+</html>
