@@ -110,7 +110,7 @@ var dynModelUpdatePosData = {
 	getDesItem: function(timelineItem){
 
 		var typeDes = "更新PosData";
-		var detail = "pos：" + timelineItem.data;
+		var detail = "pos：" + JSON.stringify(timelineItem.data);
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
