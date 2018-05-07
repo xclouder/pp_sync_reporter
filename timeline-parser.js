@@ -145,4 +145,4 @@ timelineDesFactory.addDescriptor(1, modelTimeTypeChangedDes);
 timelineDesFactory.addDescriptor(2, invisibleModelRached);
 timelineDesFactory.addDescriptor(3, visibleModelInterpolateFinish);
 timelineDesFactory.addDescriptor(4, lerpStartTimeUpdated);
-timelineDesFactory.addDescriptor(4, dynModelUpdatePosData);
+timelineDesFactory.addDescriptor(5, dynModelUpdatePosData);
