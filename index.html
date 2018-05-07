@@ -169,6 +169,8 @@
                 var info = {
                     index: i,
                     deltaPosArray: [],
+                    dynModelDeltaPosArray:[],
+                    lerpRateArray: [],
                     receivePcksArray: [], //value为收包时间-发包时间
                     timelineArray: [],
                 };
@@ -182,6 +184,16 @@
                         if (rec.recType == 0) // enum 0 > DeltaPos
                         {
                             info.deltaPosArray.push(rec);
+                        }
+
+                        if (rec.recType == 3) // enum 3 > LerpRate
+                        {
+                            info.lerpRateArray.push(rec);
+                        }
+
+                        if (rec.recType == 4) // enum 4 > DynModelUpdateTransDeltaPos
+                        {
+                            info.dynModelDeltaPosArray.push(rec);
                         }
                     }
 
@@ -211,24 +223,6 @@
             }
             return infos;
         }
-
-        CAR_COLORS = [
-            "rgb(66, 33, 66)",
-            "rgb(66, 132, 96)",
-            "rgb(143, 132, 96)",
-            "rgb(3, 132, 96)",
-            "rgb(201, 63, 96)",
-            "rgb(186, 132, 0)",
-        ];
-
-        CAR_COLORS_RECV_PACK = [
-            "rgb(166, 93, 16)",
-            "rgb(6, 232, 196)",
-            "rgb(155, 12, 33)",
-            "rgb(31, 232, 196)",
-            "rgb(201, 63, 6)",
-            "rgb(99, 132, 132)",
-        ];
 
         function getCarColor(index) {
             return CAR_COLORS[index];
@@ -311,6 +305,19 @@
 
                 dataDesArr.push(currCarDeltaPosDes);
 
+                //dynModelDeltaPos
+                if (carInfo.dynModelDeltaPosArray && carInfo.dynModelDeltaPosArray.length > 0)
+                {
+                    var currCarDynModelDeltaPosDes = {
+                        "data" : carInfo.dynModelDeltaPosArray,
+                        "valueMapTo" : "dynModelUpdateDelta_" + i,
+                        "label" : "DynModelUpdateDelta(Car-" + i + ")",
+                        "axis" : "deltaPosAxis"
+                    }
+
+                    dataDesArr.push(currCarDynModelDeltaPosDes);
+                }
+                
 
                 //receivePack
                 var currCarReceivePack = {
@@ -320,11 +327,73 @@
                     "axis" : "commonAxis"
                 }
                 dataDesArr.push(currCarReceivePack);
+
+                if (carInfo.lerpRateArray && carInfo.lerpRateArray.length > 0)
+                {
+                    //lerpRate
+                    var currCarLerpRateDes = {
+                        "data" : carInfo.lerpRateArray,
+                        "valueMapTo" : "lerpRate_" + i,
+                        "label" : "LerpRate(Car-" + i + ")",
+                        "axis" : "commonAxis"
+                    }
+                    dataDesArr.push(currCarLerpRateDes);
+                }
+                
             }
 
             //console.log(dataDesArr);
 
             return dataDesArr;
+        }
+
+        function testGetDataProvider()
+        {
+            var arr = [
+                {
+                    "data":[
+                        {
+                            "time" : 1,
+                            "value" : 1,
+                        },
+                        {
+                            "time" : 2,
+                            "value" : 2,
+                        },
+                        {
+                            "time" : 3,
+                            "value" : 3,
+                        }
+                    ],
+                    "valueMapTo": "val1",
+                    "label" : "Val1",
+                    "axis" : "axis1"
+                },
+                {
+                    "data":[
+                        {
+                            "time" : 1,
+                            "value" : 6
+                        },
+                        {
+                            "time" : 3,
+                            "value" : 5,
+                        }
+                    ],
+                    "valueMapTo": "val2",
+                    "label" : "Val2",
+                    "axis" : "axis1"
+                },
+                // {
+                //     "data":[],
+                //     "valueMapTo": "val3",
+                //     "label" : "Val3",
+                //     "axis" : "axis1"
+                // },
+            ];
+
+            var data = getDataProvider(arr);
+            console.log(data);
         }
 
         function getDataProvider(dataDesArr, timeOffset = 0)
@@ -354,8 +423,11 @@
                 {
                     var des = dataDesArr[i];
                     var currRec = mergeRecs[i];
+                    if (!currRec.finished)
+                    {
+                        currRec.headItemTime = des.data[currRec.index].time;
+                    }
                     
-                    currRec.headItemTime = des.data[currRec.index].time;
                 }
 
                 var min = Number.MAX_SAFE_INTEGER;
@@ -376,13 +448,7 @@
 
                 var selectedDes = dataDesArr[minIndex];
                 var selectedMergeRec = mergeRecs[minIndex];
-                selectedMergeRec.index = selectedMergeRec.index + 1;
-                if (selectedMergeRec.index >= selectedDes.data.length - 1)
-                {
-                    mergeRecs[minIndex].finished = true;
-                    finishedCount++;
-                }
-
+                
                 if (currTime == min)
                 {
                     currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value - timeOffset;
@@ -398,6 +464,13 @@
                     currData[selectedDes.valueMapTo] = selectedDes.data[selectedMergeRec.index].value - timeOffset;
 
                     dataProvider.push(currData);
+                }
+
+                selectedMergeRec.index = selectedMergeRec.index + 1;
+                if (selectedMergeRec.index > selectedDes.data.length - 1)
+                {
+                    mergeRecs[minIndex].finished = true;
+                    finishedCount++;
                 }
             }
 
@@ -499,14 +572,14 @@
                     "axisColor": "#555555",
                     "gridAlpha": 0,
                     "gridColor": "#FFFFFF",
-                    "categoryFunction" : function(time, dataItem) {
-                        var _beginTime = 0;
-                        if (logData.raceInfo.beginGameTime)
-                        {
-                            _beginTime = logData.raceInfo.beginGameTime;
-                        }
-                        return (parseFloat(dataItem.time - _beginTime)/1000).toFixed(2);
-                    }
+                    // "categoryFunction" : function(time, dataItem) {
+                    //     var _beginTime = 0;
+                    //     if (logData.raceInfo.beginGameTime)
+                    //     {
+                    //         _beginTime = logData.raceInfo.beginGameTime;
+                    //     }
+                    //     return (parseFloat(dataItem.time - _beginTime)/1000).toFixed(2);
+                    // }
                 },
                 "export": {
                     "enabled": false
@@ -624,7 +697,7 @@
             });
 
             //loadLogFromUrl("http://localhost/synclogs/1.rec");
-
+            //testGetDataProvider();
         });
 
         function zoomChart() {

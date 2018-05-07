@@ -93,6 +93,32 @@ var visibleModelInterpolateFinish = {
 	},
 }
 
+var lerpStartTimeUpdated = {
+	getDesItem: function(timelineItem){
+
+		var typeDes = "更新lerpStartTime";
+		var detail = "时间：" + timelineItem.data;
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail	//detail
+		};
+	},
+}
+
+var dynModelUpdatePosData = {
+	getDesItem: function(timelineItem){
+
+		var typeDes = "更新PosData";
+		var detail = "pos：" + timelineItem.data;
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail	//detail
+		};
+	},
+}
+
 /*有时间了再研究下ECMAScript6的class特性
 class TimelineDesBase
 {
@@ -118,4 +144,5 @@ timelineDesFactory.addDescriptor(0, newPackReceivedItemDes);
 timelineDesFactory.addDescriptor(1, modelTimeTypeChangedDes);
 timelineDesFactory.addDescriptor(2, invisibleModelRached);
 timelineDesFactory.addDescriptor(3, visibleModelInterpolateFinish);
-
+timelineDesFactory.addDescriptor(4, lerpStartTimeUpdated);
+timelineDesFactory.addDescriptor(4, dynModelUpdatePosData);
