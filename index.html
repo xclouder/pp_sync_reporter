@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <style>
     body {
-        width: 900px;
+        width: 1280px;
         margin: 0 auto;
         font-family: Tahoma, Verdana, Arial, sans-serif;
     }
@@ -96,6 +96,7 @@
             <table class="hovertable">
                 <tr>
                     <td>时间</td>
+                    <td>FixedFrame</td>
                     <td>类型</td>
                     <td>描述</td>
                 </tr>
@@ -107,6 +108,11 @@
             $('#carIndex').html(raceInfo.myCarIndex);
             $('#roomId').html(raceInfo.roomId);
             $('#gameTime').html(raceInfo.startDateTime);
+            if (raceInfo.sceneName)
+            {
+                $('#mapName').html(raceInfo.sceneName);    
+            }
+            
         }
 
         function mapObjectArray(arr, mapCfg) {
@@ -244,6 +250,7 @@
             $('#carIndex').html(pendingTxt);
             $('#roomId').html(pendingTxt);
             $('#gameTime').html(pendingTxt);
+            $('#mapName').html(pendingTxt);
         }
 
         var chart = null;
@@ -517,9 +524,21 @@
             return graphs;
         }
 
-        function getRandomColor()
+        function getCarIndex(graphTitle)
         {
-            return "#669933";
+            var idx = -1;
+            if (graphTitle.includes("DeltaPos(Car"))
+            {
+                var indexStr = graphTitle.substring("DeltaPos(Car-".length, "DeltaPos(Car-".length + 1);
+                idx = parseInt(indexStr);
+            }
+            else if (graphTitle.includes("ReceivePack(Car"))
+            {
+                var indexStr = graphTitle.substring("ReceivePack(Car-".length, "ReceivePack(Car-".length + 1);
+                idx = parseInt(indexStr);
+            }
+
+            return idx;
         }
 
         function showWithLogData(logData) {
@@ -589,12 +608,9 @@
                     "method": function(event) { 
                         var graph = event.item.graph;
                         var title = graph.title;
-
-                        if (title.includes("DeltaPos"))
+                        var idx = getCarIndex(title);
+                        if (idx >= 0)
                         {
-                            var indexStr = title.substring("DeltaPos(Car-".length, "DeltaPos(Car-".length + 1);
-                            var idx = parseInt(indexStr);
-
                             var carInfo = carInfos[idx];
                             var timelineArr = carInfo.timelineArray;
                             //console.log(event.item);
@@ -603,7 +619,7 @@
                             for (var i = timelineArr.length-1; i >=0; i--)
                             {
                                 var timeLine = timelineArr[i];
-                                if (timeLine[0].time < time)
+                                if (timeLine[0].time <= time)
                                 {
                                     timeLineToShow = timeLine;
                                     break;
@@ -626,6 +642,8 @@
                         {
                             clearTimelineInfo();
                         }
+
+                        
                     }
                 }]
             });
@@ -654,7 +672,7 @@
             </table>
             */
             htmlArr.push("<table class='hovertable'>");
-            htmlArr.push("<tr><td>时间</td><td>类型</td><td>描述</td></tr>");
+            htmlArr.push("<tr><td>时间</td><td>FixedFrame</td><td>类型</td><td>描述</td></tr>");
 
             for (var i = 0; i < timeline.length; i++) {
                 var item = timeline[i];
@@ -665,6 +683,17 @@
 
                 htmlArr.push("<td>");
                 htmlArr.push(data.time);
+                htmlArr.push("</td>");
+
+                htmlArr.push("<td>");
+                if (data.fixedFrmCnt)
+                {
+                    htmlArr.push(data.fixedFrmCnt);
+                }
+                else
+                {
+                    htmlArr.push("none");
+                }
                 htmlArr.push("</td>");
 
                 htmlArr.push("<td>");

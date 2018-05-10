@@ -18,7 +18,8 @@ var timelineDesBase = {
 		return {
 			time:0, //time
 			evt:"type des", //type
-			des:"detail"	//detail
+			des:"detail",	//detail
+			fixedFrmCnt:0,
 		};
 	},
 };
@@ -31,7 +32,8 @@ var newPackReceivedItemDes = {
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
-			des:detail	//detail
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
 		};
 	},
 };
@@ -62,7 +64,8 @@ var modelTimeTypeChangedDes = {
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
-			des:detail	//detail
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
 		};
 	},
 };
@@ -75,7 +78,8 @@ var invisibleModelRached = {
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
-			des:detail	//detail
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
 		};
 	},
 }
@@ -88,7 +92,8 @@ var visibleModelInterpolateFinish = {
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
-			des:detail	//detail
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
 		};
 	},
 }
@@ -101,7 +106,8 @@ var lerpStartTimeUpdated = {
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
-			des:detail	//detail
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
 		};
 	},
 }
@@ -109,12 +115,55 @@ var lerpStartTimeUpdated = {
 var dynModelUpdatePosData = {
 	getDesItem: function(timelineItem){
 
-		var typeDes = "更新PosData";
+		var typeDes = "动力模型更新PosData";
 		var detail = "pos：" + JSON.stringify(timelineItem.data);
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
-			des:detail	//detail
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var onCollision = {
+	getDesItem: function(timelineItem){
+
+		var typeDes = "发生碰撞";
+		var detail = "数据：" + JSON.stringify(timelineItem.data);
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var fixedUpdatePos = {
+	getDesItem: function(timelineItem){
+
+		var typeDes = "更新Pos";
+		var detail = "pos：" + JSON.stringify(timelineItem.data);
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var gameObjNotActive = {
+	getDesItem: function(timelineItem){
+
+		var typeDes = "对象不可见";
+		var detail = "gameObject activeInHierarchy为false，可能被cull"
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
 		};
 	},
 }
@@ -146,3 +195,6 @@ timelineDesFactory.addDescriptor(2, invisibleModelRached);
 timelineDesFactory.addDescriptor(3, visibleModelInterpolateFinish);
 timelineDesFactory.addDescriptor(4, lerpStartTimeUpdated);
 timelineDesFactory.addDescriptor(5, dynModelUpdatePosData);
+timelineDesFactory.addDescriptor(6, onCollision);
+timelineDesFactory.addDescriptor(7, fixedUpdatePos);
+timelineDesFactory.addDescriptor(8, gameObjNotActive);
