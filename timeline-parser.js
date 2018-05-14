@@ -53,14 +53,27 @@ var modelTimeTypeChangedDes_EnumDict = [
 	"隐形车追帧过程",
 	"不使用插值",
 	"三次插值过程",
-	"车离得太远"
+	"车离得太远",
 ];
+
+function getStateName(enumId)
+{
+	if (enumId == 999)
+	{
+		return "Init";
+	}
+	else
+	{
+		return modelTimeTypeChangedDes_EnumDict[enumId];
+	}
+}
 
 var modelTimeTypeChangedDes = {
 	getDesItem: function(timelineItem){
 
 		var typeDes = "隐形车EModelTimeType更新";
-		var detail = "更新为:" + modelTimeTypeChangedDes_EnumDict[timelineItem.data];
+		var stateName = getStateName(timelineItem.data);
+		var detail = "更新为:" + stateName;
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
@@ -115,8 +128,8 @@ var lerpStartTimeUpdated = {
 var dynModelUpdatePosData = {
 	getDesItem: function(timelineItem){
 
-		var typeDes = "动力模型更新PosData";
-		var detail = "pos：" + JSON.stringify(timelineItem.data);
+		var typeDes = "[外观车]动力模型更新PosData";
+		var detail = "[外观车]pos：" + JSON.stringify(timelineItem.data);
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
@@ -168,6 +181,20 @@ var gameObjNotActive = {
 	},
 }
 
+var dynModelUpdatePosData_InvisibleModel = {
+	getDesItem: function(timelineItem){
+
+		var typeDes = "[隐形车]动力模型更新PosData";
+		var detail = "[隐形车]pos：" + JSON.stringify(timelineItem.data);
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
 /*有时间了再研究下ECMAScript6的class特性
 class TimelineDesBase
 {
@@ -198,3 +225,4 @@ timelineDesFactory.addDescriptor(5, dynModelUpdatePosData);
 timelineDesFactory.addDescriptor(6, onCollision);
 timelineDesFactory.addDescriptor(7, fixedUpdatePos);
 timelineDesFactory.addDescriptor(8, gameObjNotActive);
+timelineDesFactory.addDescriptor(9, dynModelUpdatePosData_InvisibleModel);
