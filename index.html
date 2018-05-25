@@ -175,6 +175,7 @@
                 var info = {
                     index: i,
                     deltaPosArray: [],
+                    reversMoveArray:[],
                     dynModelDeltaPosArray:[],
                     lerpRateArray: [],
                     receivePcksArray: [], //value为收包时间-发包时间
@@ -200,6 +201,11 @@
                         if (rec.recType == 4) // enum 4 > DynModelUpdateTransDeltaPos
                         {
                             info.dynModelDeltaPosArray.push(rec);
+                        }
+
+                        if (rec.recType == 5) // enum 4 > DynModelUpdateTransDeltaPos
+                        {
+                            info.reversMoveArray.push(rec);
                         }
                     }
 
@@ -323,6 +329,19 @@
                     }
 
                     dataDesArr.push(currCarDynModelDeltaPosDes);
+                }
+
+                //reverseMove
+                if (carInfo.reversMoveArray && carInfo.reversMoveArray.length > 0)
+                {
+                    var currCarReverseMoveDes = {
+                        "data" : carInfo.reversMoveArray,
+                        "valueMapTo" : "reverseMove_" + i,
+                        "label" : "ReverseMove(Car-" + i + ")",
+                        "axis" : "deltaPosAxis"
+                    }
+
+                    dataDesArr.push(currCarReverseMoveDes);
                 }
                 
 

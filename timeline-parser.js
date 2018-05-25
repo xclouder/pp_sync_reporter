@@ -195,6 +195,90 @@ var dynModelUpdatePosData_InvisibleModel = {
 	},
 }
 
+var polynormalLerpStart = {
+	getDesItem: function(timelineItem){
+
+		var typeDes = "[外观车]插值开始";
+		var detail = "[外观车]插值参数：" + JSON.stringify(timelineItem.data);
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var NET_KART_STATE = ["Normal", "Lerping", "Collid"];
+var netKartEnterState = {
+	getDesItem: function(timelineItem){
+
+		var state = NET_KART_STATE[timelineItem.data["state"]];
+		var typeDes = "进入状态:" + state;
+		var detail = "State:" + state;
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var netKartExitState = {
+	getDesItem: function(timelineItem){
+
+		var state = NET_KART_STATE[timelineItem.data["state"]];
+		var typeDes = "退出状态:" + state;
+		var detail = "State:" + state;
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var onStartPredicate = {
+	getDesItem: function(timelineItem){
+		var typeDes = "开始预测";
+		var detail = "";
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var onMadePredicate = {
+	getDesItem: function(timelineItem){
+		var typeDes = "预测完成";
+		var detail = JSON.stringify(timelineItem.data);
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
+var onPredicateInterrupted = {
+	getDesItem: function(timelineItem){
+		var typeDes = "中断预测";
+		var detail = "";
+		return {
+			time:timelineItem.time, //time
+			evt:typeDes, //type
+			des:detail,	//detail
+			fixedFrmCnt:timelineItem.fixedFrmCnt,
+		};
+	},
+}
+
 /*有时间了再研究下ECMAScript6的class特性
 class TimelineDesBase
 {
@@ -226,3 +310,10 @@ timelineDesFactory.addDescriptor(6, onCollision);
 timelineDesFactory.addDescriptor(7, fixedUpdatePos);
 timelineDesFactory.addDescriptor(8, gameObjNotActive);
 timelineDesFactory.addDescriptor(9, dynModelUpdatePosData_InvisibleModel);
+timelineDesFactory.addDescriptor(10, polynormalLerpStart);
+
+timelineDesFactory.addDescriptor(100, netKartEnterState);
+timelineDesFactory.addDescriptor(101, netKartExitState);
+timelineDesFactory.addDescriptor(102, onStartPredicate);
+timelineDesFactory.addDescriptor(103, onMadePredicate);
+timelineDesFactory.addDescriptor(104, onPredicateInterrupted);
