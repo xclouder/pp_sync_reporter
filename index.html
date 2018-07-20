@@ -87,6 +87,37 @@
             <h4>地图名称:</h4>
             <p id="mapName">pending...</p>
         </div>
+        <h3>统计信息</h3>
+        <b>发包数：</b> <span id="statics_sendPack">pending...</span>
+        <h3>同步质量信息</h3>
+        <div>
+            <table class="hovertable">
+                <tr>
+                    <td>总帧数</td>
+                    <td>拉扯帧数</td>
+                    <td>拉扯帧百分比</td>
+                    <td>重置次数</td>
+                    <td>平均RTT</td>
+                </tr>
+                <tr>
+                    <td id="data_totalFrame">
+                        pending...
+                    </td>
+                    <td id="data_pullFrame">
+                        pending...
+                    </td>
+                    <td id="data_pullPercent">
+                        pending...
+                    </td>
+                    <td id="data_resetCount">
+                        pending...
+                    </td>
+                    <td id="data_avgRTT">
+                        pending...
+                    </td>
+                </tr>
+            </table>
+        </div>
         <br/>
         <h3>关键数据图表</h3>
         <div class="chartdiv" id="chartdiv">
@@ -112,7 +143,19 @@
             {
                 $('#mapName').html(raceInfo.sceneName);    
             }
-            
+        }
+
+        function fillStaticsInfo(statics)
+        {
+            $('#data_totalFrame').html(statics.totalFrameCount);
+            $('#data_pullFrame').html(statics.pulledFrameCount);
+
+            var percent = statics.pulledFrameCount / statics.totalFrameCount;
+            $('#data_pullPercent').html(Math.round(percent*10000)/100 + '%');
+            $('#data_resetCount').html(statics.resetCount);
+            $('#data_avgRTT').html(statics.avgRtt + "ms");
+
+            $('#statics_sendPack').html(statics.sentPacksCount);
         }
 
         function mapObjectArray(arr, mapCfg) {
@@ -257,6 +300,14 @@
             $('#roomId').html(pendingTxt);
             $('#gameTime').html(pendingTxt);
             $('#mapName').html(pendingTxt);
+
+            $('#data_totalFrame').html(pendingTxt);
+            $('#data_pullFrame').html(pendingTxt);
+            $('#data_pullPercent').html(pendingTxt);
+            $('#data_resetCount').html(pendingTxt);
+            $('#data_avgRTT').html(pendingTxt);
+
+            $('#statics_sendPack').html(pendingTxt);
         }
 
         var chart = null;
@@ -431,18 +482,26 @@
 
             //记录每个dataDes当前的元素index, time
             var mergeRecs = [];
+            var finishedCount = 0;
             for (var i = 0; i < dataDesArr.length; i++)
             {
+                var hasData = (dataDesArr[i].data != null && dataDesArr[i].data.length > 0);
+
                 mergeRecs.push({
                     index: 0,
                     headItemTime: 0,
-                    finished: false,
+                    finished: !hasData,
                 });
+
+                if (!hasData)
+                {
+                    finishedCount++;
+                }
             }
 
             //console.log(mergeRecs);
             
-            var finishedCount = 0;
+            
             while (finishedCount < dataDesArr.length)
             {
                 for (var i in dataDesArr)
@@ -532,7 +591,8 @@
                     "bullet": "round",
                     "bulletBorderAlpha": 1,
                     "useLineColorForBulletBorder": true,
-                    "carIndex": des.valueMapTo
+                    "carIndex": des.valueMapTo,
+                    "hidden": true
                     //"bulletColor": getRandomColor(),
                     //"labelText": "rtt:[[rtt]]",
                 }
@@ -561,9 +621,11 @@
         }
 
         function showWithLogData(logData) {
-            //console.log(logData);
+            console.log(logData);
 
             fillRaceInfo(logData.raceInfo);
+            fillStaticsInfo(logData.statics);
+
             var _dataDesArr = getDataDesArr(logData);
 
             dataProvider = getDataProvider(_dataDesArr);

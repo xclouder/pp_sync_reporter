@@ -215,7 +215,7 @@ var netKartEnterState = {
 
 		var state = NET_KART_STATE[timelineItem.data["state"]];
 		var typeDes = "进入状态:" + state;
-		var detail = "State:" + state;
+		var detail = JSON.stringify(timelineItem.data);
 		return {
 			time:timelineItem.time, //time
 			evt:typeDes, //type
